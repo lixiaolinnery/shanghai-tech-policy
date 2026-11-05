@@ -13,6 +13,8 @@ jobs:
     timeout-minutes: 40
     permissions:
       contents: write
+    env:
+      TZ: Asia/Shanghai
     steps:
       - name: 检出代码
         uses: actions/checkout@v4
