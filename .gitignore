@@ -1,0 +1,8 @@
+node_modules/
+logs/
+_pages*/
+__pycache__/
+*.pyc
+.gh_token
+cf.env
+.DS_Store

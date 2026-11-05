@@ -1,0 +1,8 @@
+{
+  "name": "shanghai-tech-policy-updater",
+  "private": true,
+  "description": "上海科技政策查询站：定时抓取并部署到 Cloudflare Pages",
+  "dependencies": {
+    "@noble/hashes": "^2.4.0"
+  }
+}

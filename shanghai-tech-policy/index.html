@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>上海科技政策查询 · 高企 / 专精特新 / 科技型中小企业</title>
+<meta name="description" content="上海科技类政策一站式查询：高新技术企业、专精特新中小企业、科技型中小企业等政策的红头文件、历年申报通知、公示通知、领补贴通知，以及申报条件与政策好处。数据来自上海市科委、市经信委官网原文。">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <div class="brand">
+      <h1>上海科技政策查询</h1>
+      <span class="badge">数据源：政府官网原文</span>
+    </div>
+    <p class="sub">一站式检索上海科技类政策：高新技术企业、专精特新中小企业、创新型中小企业、科技型中小企业、科技小巨人、技术创新资金、科技创新券等。红头文件、历年申报通知、公示通知、领补贴通知，以及申报条件与政策好处。</p>
+    <div class="stats" id="stats"></div>
+  </div>
+</header>
+
+<nav class="tabs"><div class="tabs-inner" id="tabs"></div></nav>
+
+<div class="filters" id="filterWrap">
+  <div class="filters-bar" id="filterBar">
+    <button class="btn fbtn" id="filterToggle" aria-expanded="false" aria-controls="filters">
+      <span class="fico">☰</span><span>筛选</span><span class="fcount" id="fcount"></span><span class="farrow">▾</span>
+    </button>
+    <span class="fres" id="fres"></span>
+  </div>
+  <div class="filters-inner" id="filters">
+    <input id="q" type="search" placeholder="搜索政策标题、文号、关键词，例如：高新技术企业 / 专精特新 / 沪科〔2026〕89号" autocomplete="off">
+    <select id="f-cat"></select>
+    <select id="f-level">
+      <option value="">全部层级</option>
+      <option value="市级">市级政策</option>
+      <option value="区级">区级政策</option>
+    </select>
+    <select id="f-year"></select>
+    <select id="f-src"></select>
+    <select id="f-issuer"></select>
+    <button class="btn" id="reset">重置筛选</button>
+  </div>
+  <div class="yearbar" id="yearbar"></div>
+</div>
+
+<main>
+  <div class="resultbar" id="resultbar"></div>
+  <div id="list"></div>
+</main>
+
+<section class="updatebox" id="updatebox">
+  <div class="ub-main">
+    <div class="ub-info">
+      <div class="ub-title">数据更新</div>
+      <div class="ub-meta">
+        上次更新 <b id="ub-last">—</b>
+        <span class="ub-stale" id="ub-stale" hidden></span>
+      </div>
+    </div>
+    <button class="btn primary ub-btn" id="ub-btn" hidden>立即更新</button>
+  </div>
+  <div class="ub-msg" id="ub-msg" hidden></div>
+  <pre class="ub-log" id="ub-log" hidden></pre>
+</section>
+
+<div class="foot">
+  <p><b>数据说明</b>：本页所有政策标题、文号、发布日期与链接均来自上海市科学技术委员会（stcsm.sh.gov.cn）、上海市经济和信息化委员会（sheitc.sh.gov.cn）等政府官网公开页面，由程序自动采集整理。政策原文以官方链接为准。</p>
+  <p><b>免责声明</b>：本站为政策检索工具，不构成任何申报依据或法律意见。申报条件、补贴金额、时间窗口等可能随时调整，请务必点击「官网原文」核对最新要求。红头文件 PDF 链接指向政府网站原始文件。</p>
+  <p>生成时间：<span id="gen">—</span>　|　共 <span id="genn">—</span> 条记录</p>
+</div>
+
+<div class="mask" id="mask"></div>
+<aside class="drawer" id="drawer" role="dialog" aria-label="政策详情"></aside>
+
+<script src="data/policies.js"></script>
+<script src="assets/app.js"></script>
+<script>
+(function(){
+  var m = (window.__POLICY_DATA__||{}).meta||{};
+  document.getElementById('gen').textContent = m.generatedAt || '—';
+  document.getElementById('genn').textContent = m.total==null ? '—' : m.total;
+})();
+</script>
+</body>
+</html>

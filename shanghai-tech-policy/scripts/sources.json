@@ -1,0 +1,146 @@
+{
+  "_comment": "增量更新用数据源清单。inc = 每次只抓最新多少页（新通知都出现在最前面），max = 全量抓取页数。因默认每小时轮询一次，inc 压到 2 页即可——即使某轮漏掉，下一小时它仍在最新页里会被重新捞到。",
+  "sources": [
+    {
+      "name": "stcsm_gsgg",
+      "out": "data/raw/list_stcsm.json",
+      "source": "stcsm",
+      "channel": "通知告示",
+      "runner": "list",
+      "pattern": "https://stcsm.sh.gov.cn/zwgk/tzgs/gsgg/index_{i}.html",
+      "max": 181,
+      "inc": 2
+    },
+    {
+      "name": "stcsm_zcwj",
+      "out": "data/raw/list_stcsm_zcwj.json",
+      "source": "stcsm",
+      "channel": "政策文件",
+      "runner": "list",
+      "pattern": "https://stcsm.sh.gov.cn/zwgk/kjzc/zcwj/index_{i}.html",
+      "max": 6,
+      "inc": 2
+    },
+    {
+      "name": "stcsm_qttzgs",
+      "out": "data/raw/list_stcsm_qttzgs.json",
+      "source": "stcsm",
+      "channel": "其他通知告示",
+      "runner": "list",
+      "pattern": "https://stcsm.sh.gov.cn/zwgk/tzgs/qttzgs/index_{i}.html",
+      "max": 14,
+      "inc": 2
+    },
+    {
+      "name": "stcsm_ghjh",
+      "out": "data/raw/list_stcsm_ghjh.json",
+      "source": "stcsm",
+      "channel": "规划计划",
+      "runner": "list",
+      "pattern": "https://stcsm.sh.gov.cn/zwgk/ghjh/index_{i}.html",
+      "max": 3,
+      "inc": 2
+    },
+    {
+      "name": "sheitc_cyfz",
+      "out": "data/raw/list_sheitc_cyfz.json",
+      "source": "sheitc",
+      "channel": "cyfz",
+      "runner": "sheitc",
+      "max": 85,
+      "inc": 2
+    },
+    {
+      "name": "sheitc_gg",
+      "out": "data/raw/list_sheitc_gg.json",
+      "source": "sheitc",
+      "channel": "gg",
+      "runner": "sheitc",
+      "max": 69,
+      "inc": 2
+    },
+    {
+      "name": "sheitc_bmgzjxgwj",
+      "out": "data/raw/list_sheitc_bmgzjxgwj.json",
+      "source": "sheitc",
+      "channel": "bmgzjxgwj",
+      "runner": "sheitc",
+      "max": 31,
+      "inc": 2
+    },
+    {
+      "name": "sheitc_sjxwxgwj",
+      "out": "data/raw/list_sheitc_sjxwxgwj.json",
+      "source": "sheitc",
+      "channel": "sjxwxgwj",
+      "runner": "sheitc",
+      "max": 11,
+      "inc": 2
+    },
+    {
+      "name": "sheitc_zxgkxx",
+      "out": "data/raw/list_sheitc_zxgkxx.json",
+      "source": "sheitc",
+      "channel": "zxgkxx",
+      "runner": "sheitc",
+      "max": 66,
+      "inc": 2
+    },
+    {
+      "name": "sheitc_zxxx",
+      "out": "data/raw/list_sheitc_zxxx.json",
+      "source": "sheitc",
+      "channel": "zxxx",
+      "runner": "sheitc",
+      "max": 200,
+      "inc": 2
+    },
+    {
+      "name": "sipa_tzgg",
+      "out": "data/raw/list_sipa_tzgg.json",
+      "source": "sipa",
+      "channel": "通知公告",
+      "runner": "list",
+      "pattern": "https://sipa.sh.gov.cn/tzgg/index_{i}.html",
+      "dateClass": "time",
+      "max": 45,
+      "inc": 2
+    },
+    {
+      "name": "fgw_zxzc",
+      "out": "data/raw/list_fgw_zxzc.json",
+      "source": "shgov",
+      "channel": "发改委最新政策",
+      "runner": "list",
+      "pattern": "https://fgw.sh.gov.cn/fgw_zxzc/index_{i}.html",
+      "dateClass": "time",
+      "max": 152,
+      "inc": 2
+    },
+    {
+      "name": "shgov_nw12344",
+      "out": "data/raw/list_shgov_nw12344.json",
+      "source": "shgov",
+      "channel": "市政府文件",
+      "runner": "list",
+      "pattern": "https://www.shanghai.gov.cn/nw12344/index_{i}.html",
+      "dateClass": "time",
+      "max": 200,
+      "inc": 2
+    },
+    {
+      "name": "wenchuang",
+      "out": "data/raw/list_wenchuang.json",
+      "source": "wenchuang",
+      "channel": "文创",
+      "runner": "script",
+      "script": "crawl_wenchuang.py",
+      "max": 1,
+      "inc": 1
+    }
+  ],
+  "district": {
+    "_comment": "区级由 scripts/district_harvest/ 下的专项脚本采集；这些站点结构各异且易限流，默认不纳入每日自动更新，避免频繁触发 WAF。需要更新时手动运行。",
+    "enabled": false
+  }
+}
