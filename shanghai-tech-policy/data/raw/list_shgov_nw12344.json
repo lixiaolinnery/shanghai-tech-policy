@@ -1,8 +1,15 @@
 {
  "source": "shgov",
  "channel": "市政府文件",
- "count": 4206,
+ "count": 4207,
  "items": [
+  {
+   "title": "中共上海市委关于二十届中央巡视省（区、市）整改进展情况的通报",
+   "date": "2026-11-05",
+   "url": "https://www.shanghai.gov.cn/nw12344/20261105/4711866a60c14595a32de859efbcffaf.html",
+   "source": "shgov",
+   "channel": "市政府文件"
+  },
   {
    "title": "上海市市场监督管理局 上海市档案局关于印发《上海市经营主体登记档案查阅办法》的通知",
    "date": "2026-11-02",
