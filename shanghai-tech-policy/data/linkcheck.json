@@ -1,15 +1,15 @@
 {
- "checked": 5610,
- "total": 5623,
+ "checked": 5612,
+ "total": 5625,
  "byCode": {
   "000": 5,
-  "200": 5581,
+  "200": 5583,
   "403": 22,
   "404": 2
  },
- "okPages": 3111,
- "okPdf": 1835,
- "pdfPolicies": 1839,
+ "okPages": 3112,
+ "okPdf": 1836,
+ "pdfPolicies": 1840,
  "sslUnverified": [
   "https://jingwei.jiading.cn/publicity/fdzdgknr/gg/zwgg/175757",
   "https://jingwei.jiading.cn/publicity/fdzdgknr/gg/zwgg/178411",
@@ -7317,6 +7317,20 @@
    "verdict": "ok"
   },
   "https://stcsm.sh.gov.cn/cmsres/a6/a60a006ab1a44b3fb123cef301fdb428/67cb4a21df775b40c4ab7de77a45078f.pdf": {
+   "code": "200",
+   "err": "",
+   "kind": "pdf",
+   "sslUnverified": false,
+   "verdict": "ok"
+  },
+  "https://sipa.sh.gov.cn/tzgg/20250902/b513cc120e4046c2ab3850889d752f15.html": {
+   "code": "200",
+   "err": "",
+   "kind": "page",
+   "sslUnverified": false,
+   "verdict": "ok"
+  },
+  "https://sipa.sh.gov.cn/cmsres/78/78fc9426b0c14927834ab1a5732ebc20/92eadeff8577832dc2105c507195f061.pdf": {
    "code": "200",
    "err": "",
    "kind": "pdf",
@@ -39558,17 +39572,17 @@
    "sslUnverified": false,
    "verdict": "ok"
   },
-  "https://sipa.sh.gov.cn/tzgg/20250902/b513cc120e4046c2ab3850889d752f15.html": {
-   "code": "200",
-   "err": "",
-   "kind": "page",
-   "sslUnverified": false,
-   "verdict": "ok"
-  },
-  "https://sipa.sh.gov.cn/cmsres/78/78fc9426b0c14927834ab1a5732ebc20/92eadeff8577832dc2105c507195f061.pdf": {
+  "https://stcsm.sh.gov.cn/cmsres/0b/0b4b6105232a4a958aace21d38ee80fe/bef3ac2eae7f351204406354b8904bb1.pdf": {
    "code": "200",
    "err": "",
    "kind": "pdf",
+   "sslUnverified": false,
+   "verdict": "ok"
+  },
+  "https://stcsm.sh.gov.cn/zwgk/tzgs/gsgg/zhgsgg/20261106/6e08f64037f642d4898ba0b6ea46ae6b.html": {
+   "code": "200",
+   "err": "",
+   "kind": "page",
    "sslUnverified": false,
    "verdict": "ok"
   }

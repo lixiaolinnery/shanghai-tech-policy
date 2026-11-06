@@ -1,8 +1,15 @@
 {
  "source": "stcsm",
  "channel": "通知告示",
- "count": 3443,
+ "count": 3444,
  "items": [
+  {
+   "title": "关于2026年度上海市科技服务业重大投资项目拟支持项目的公示",
+   "date": "2026-11-06",
+   "url": "https://stcsm.sh.gov.cn/zwgk/tzgs/gsgg/zhgsgg/20261106/6e08f64037f642d4898ba0b6ea46ae6b.html",
+   "source": "stcsm",
+   "channel": "通知告示"
+  },
   {
    "title": "关于上海市2026年第六批入库科技型中小企业的公告",
    "date": "2026-11-04",

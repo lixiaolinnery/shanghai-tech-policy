@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generatedAt": "2026-11-06 15:28",
-  "total": 3135,
+  "generatedAt": "2026-11-06 23:15",
+  "total": 3136,
   "years": [
    "2015",
    "2016",
@@ -86,11 +86,49 @@
    "黄浦区人民政府/科委"
   ],
   "deepCount": 1000,
-  "pdfCount": 1839,
+  "pdfCount": 1840,
   "docNoCount": 1159,
   "missingDetail": 0
  },
  "policies": [
+  {
+   "id": "7dc1dd6ddceb344e",
+   "title": "关于2026年度上海市科技服务业重大投资项目拟支持项目的公示",
+   "docNo": "",
+   "issuer": "上海市科学技术委员会",
+   "publishDate": "2026-11-06",
+   "year": "2026",
+   "category": "其他科技政策",
+   "noticeType": "公示通知",
+   "level": "市级",
+   "district": "",
+   "url": "https://stcsm.sh.gov.cn/zwgk/tzgs/gsgg/zhgsgg/20261106/6e08f64037f642d4898ba0b6ea46ae6b.html",
+   "pdfUrls": [
+    "https://stcsm.sh.gov.cn/cmsres/0b/0b4b6105232a4a958aace21d38ee80fe/bef3ac2eae7f351204406354b8904bb1.pdf"
+   ],
+   "attachments": [],
+   "source": "stcsm",
+   "sourceName": "上海市科学技术委员会（上海科技）",
+   "sourceShort": "市科委",
+   "channel": "通知告示",
+   "summary": "关于2026年度上海市科技服务业重大投资项目拟支持项目的公示",
+   "conditions": [],
+   "benefits": [],
+   "materials": [],
+   "timeline": [],
+   "timeHints": [
+    "2026-11-06",
+    "2026-11-12"
+   ],
+   "moneyHints": [],
+   "keywords": [],
+   "textChars": 489,
+   "depth": "basic",
+   "isFunding": false,
+   "linkOk": true,
+   "linkNote": "",
+   "pdfOk": true
+  },
   {
    "id": "a67abe1ff5f2e0f1",
    "title": "关于上海市2026年第六批入库科技型中小企业的公告",
