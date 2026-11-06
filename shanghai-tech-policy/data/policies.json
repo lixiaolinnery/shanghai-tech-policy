@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generatedAt": "2026-11-06 01:03",
-  "total": 3134,
+  "generatedAt": "2026-11-06 15:28",
+  "total": 3135,
   "years": [
    "2015",
    "2016",
@@ -86,7 +86,7 @@
    "黄浦区人民政府/科委"
   ],
   "deepCount": 1000,
-  "pdfCount": 1838,
+  "pdfCount": 1839,
   "docNoCount": 1159,
   "missingDetail": 0
  },
@@ -24791,6 +24791,50 @@
    "keywords": [],
    "textChars": 408,
    "depth": "full",
+   "isFunding": false,
+   "linkOk": true,
+   "linkNote": "",
+   "pdfOk": true
+  },
+  {
+   "id": "a49b3e8e3b4c1808",
+   "title": "上海市知识产权局关于确定2025年度上海市展会市场知识产权保护规范化建设项目实施单位的通知",
+   "docNo": "",
+   "issuer": "上海市知识产权局",
+   "publishDate": "2025-09-02",
+   "year": "2025",
+   "category": "知识产权",
+   "noticeType": "申报通知",
+   "level": "市级",
+   "district": "",
+   "url": "https://sipa.sh.gov.cn/tzgg/20250902/b513cc120e4046c2ab3850889d752f15.html",
+   "pdfUrls": [
+    "https://sipa.sh.gov.cn/cmsres/78/78fc9426b0c14927834ab1a5732ebc20/92eadeff8577832dc2105c507195f061.pdf"
+   ],
+   "attachments": [
+    {
+     "name": "附件-2025年上海市展会市场知识产权保护规范化建设项目实施单位名单.doc",
+     "url": "https://sipa.sh.gov.cn/cmsres/2d/2d4a36b9ea2d4bf28ae81ca8ac343724/df05371893ed2a1670668bbe094cce84.doc"
+    }
+   ],
+   "source": "sipa",
+   "sourceName": "上海市知识产权局",
+   "sourceShort": "市知识产权局",
+   "channel": "通知公告",
+   "summary": "上海市知识产权局关于确定2025年度上海市展会市场知识产权保护规范化建设项目实施单位的通知",
+   "conditions": [],
+   "benefits": [],
+   "materials": [],
+   "timeline": [],
+   "timeHints": [
+    "2025-09-01"
+   ],
+   "moneyHints": [],
+   "keywords": [
+    "知识产权"
+   ],
+   "textChars": 459,
+   "depth": "basic",
    "isFunding": false,
    "linkOk": true,
    "linkNote": "",
