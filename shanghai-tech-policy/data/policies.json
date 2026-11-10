@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generatedAt": "2026-11-10 16:29",
-  "total": 3136,
+  "generatedAt": "2026-11-10 16:50",
+  "total": 3137,
   "years": [
    "2015",
    "2016",
@@ -86,11 +86,50 @@
    "黄浦区人民政府/科委"
   ],
   "deepCount": 1000,
-  "pdfCount": 1840,
-  "docNoCount": 1159,
+  "pdfCount": 1841,
+  "docNoCount": 1160,
   "missingDetail": 0
  },
  "policies": [
+  {
+   "id": "c727dca29645b6c0",
+   "title": "关于公示上海市2026年第四批拟更名高新技术企业名单的通知",
+   "docNo": "沪高企认办〔2026〕10号",
+   "issuer": "上海市高新技术企业认定办公室",
+   "publishDate": "2026-11-10",
+   "year": "2026",
+   "category": "高新技术企业",
+   "noticeType": "公示通知",
+   "level": "市级",
+   "district": "",
+   "url": "https://stcsm.sh.gov.cn/zwgk/tzgs/gsgg/zhgsgg/20261110/ca95ef085b6047e8af5b6fecdc5b9063.html",
+   "pdfUrls": [
+    "https://stcsm.sh.gov.cn/cmsres/09/09a41672d123485ab29869a6ffe56bb2/189cce12dc00839c2407fae68d099578.pdf"
+   ],
+   "attachments": [],
+   "source": "stcsm",
+   "sourceName": "上海市科学技术委员会（上海科技）",
+   "sourceShort": "市科委",
+   "channel": "通知告示",
+   "summary": "关于公示上海市2026年第四批拟更名高新技术企业名单的通知",
+   "conditions": [],
+   "benefits": [],
+   "materials": [],
+   "timeline": [],
+   "timeHints": [
+    "2026-11-09"
+   ],
+   "moneyHints": [],
+   "keywords": [
+    "高新技术企业"
+   ],
+   "textChars": 533,
+   "depth": "basic",
+   "isFunding": false,
+   "linkOk": true,
+   "linkNote": "",
+   "pdfOk": true
+  },
   {
    "id": "7dc1dd6ddceb344e",
    "title": "关于2026年度上海市科技服务业重大投资项目拟支持项目的公示",
