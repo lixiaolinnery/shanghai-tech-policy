@@ -1,8 +1,29 @@
 {
  "source": "shgov",
  "channel": "发改委最新政策",
- "count": 3056,
+ "count": 3059,
  "items": [
+  {
+   "title": "【文字】优化道路停车收费政策问答",
+   "date": "2026-11-11",
+   "url": "https://fgw.sh.gov.cn/fgw_zcjd/20261111/97b00c30f55b4642936c31184b722451.html",
+   "source": "shgov",
+   "channel": "发改委最新政策"
+  },
+  {
+   "title": "【图解】关于优化我市道路停车收费政策的通知",
+   "date": "2026-11-11",
+   "url": "https://fgw.sh.gov.cn/fgw_zcjd/20261111/1695efa11a1647f5a71f74b34991df16.html",
+   "source": "shgov",
+   "channel": "发改委最新政策"
+  },
+  {
+   "title": "关于下达本市2026年节能降碳减排专项资金和超长期特别国债资金安排计划（第十七批）的通知",
+   "date": "2026-11-04",
+   "url": "https://fgw.sh.gov.cn/fgw_zyjyhhjbh/20261104/1e265ee091c4469c818359aa22b098fe.html",
+   "source": "shgov",
+   "channel": "发改委最新政策"
+  },
   {
    "title": "上海市举办街镇基层干部经济运行分析业务培训市级示范班",
    "date": "2026-11-04",
