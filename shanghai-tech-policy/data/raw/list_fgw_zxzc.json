@@ -1,8 +1,15 @@
 {
  "source": "shgov",
  "channel": "发改委最新政策",
- "count": 3059,
+ "count": 3060,
  "items": [
+  {
+   "title": "关于优化我市道路停车收费政策的通知",
+   "date": "2026-11-11",
+   "url": "https://fgw.sh.gov.cn/fgw_jjjctk/20261111/19ad4c51f7cc4f0ca2d17dc564badf35.html",
+   "source": "shgov",
+   "channel": "发改委最新政策"
+  },
   {
    "title": "【文字】优化道路停车收费政策问答",
    "date": "2026-11-11",
