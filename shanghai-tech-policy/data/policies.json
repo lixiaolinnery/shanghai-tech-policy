@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generatedAt": "2026-11-12 00:34",
-  "total": 3137,
+  "generatedAt": "2026-11-12 23:37",
+  "total": 3138,
   "years": [
    "2015",
    "2016",
@@ -85,12 +85,55 @@
    "静安区人民政府/科委",
    "黄浦区人民政府/科委"
   ],
-  "deepCount": 1000,
-  "pdfCount": 1841,
-  "docNoCount": 1160,
+  "deepCount": 1001,
+  "pdfCount": 1842,
+  "docNoCount": 1161,
   "missingDetail": 0
  },
  "policies": [
+  {
+   "id": "a3905fa691617b35",
+   "title": "关于上海市2026年度关键技术研发计划“超导”项目立项的通知",
+   "docNo": "沪科〔2026〕324号",
+   "issuer": "上海市科学技术委员会",
+   "publishDate": "2026-11-12",
+   "year": "2026",
+   "category": "其他科技政策",
+   "noticeType": "立项与评价通知",
+   "level": "市级",
+   "district": "",
+   "url": "https://stcsm.sh.gov.cn/zwgk/tzgs/gsgg/bsgsgg/kjjhxmjggb/20261112/c1436dbbce1e44bca38402d8a88de4d7.html",
+   "pdfUrls": [
+    "https://stcsm.sh.gov.cn/cmsres/08/08a7845e20ed4040be04b50266249ddf/cff3616623816a430202aee4af36f47d.pdf",
+    "https://stcsm.sh.gov.cn/cmsres/93/9372d685b8d6464dac577319de622b0d/60e62cc3e2a986b7b7434a05e8a9d66a.pdf"
+   ],
+   "attachments": [],
+   "source": "stcsm",
+   "sourceName": "上海市科学技术委员会（上海科技）",
+   "sourceShort": "市科委",
+   "channel": "通知告示",
+   "summary": "关于上海市2026年度关键技术研发计划“超导”项目立项的通知",
+   "conditions": [],
+   "benefits": [
+    "涉及金额：市科委资助4591万元；其中2026年拨款2654.6万元"
+   ],
+   "materials": [],
+   "timeline": [],
+   "timeHints": [
+    "2026-11-09"
+   ],
+   "moneyHints": [
+    "市科委资助4591万元",
+    "其中2026年拨款2654.6万元"
+   ],
+   "keywords": [],
+   "textChars": 400,
+   "depth": "full",
+   "isFunding": false,
+   "linkOk": true,
+   "linkNote": "",
+   "pdfOk": true
+  },
   {
    "id": "c727dca29645b6c0",
    "title": "关于公示上海市2026年第四批拟更名高新技术企业名单的通知",

@@ -1,8 +1,36 @@
 {
  "source": "shgov",
  "channel": "市政府文件",
- "count": 4209,
+ "count": 4213,
  "items": [
+  {
+   "title": "上海市发展和改革委员会关于车用汽、柴油价格的通知（2026年11月12日）",
+   "date": "2026-11-12",
+   "url": "https://www.shanghai.gov.cn/nw12344/20261112/e4221db00932431abafb5866b8f6c4c3.html",
+   "source": "shgov",
+   "channel": "市政府文件"
+  },
+  {
+   "title": "上海市人民政府关于表彰第三届“上海慈善奖”的决定",
+   "date": "2026-11-12",
+   "url": "https://www.shanghai.gov.cn/nw12344/20261112/1134de6e51964970983ea1461c702cda.html",
+   "source": "shgov",
+   "channel": "市政府文件"
+  },
+  {
+   "title": "上海市人民政府办公厅印发《关于优化上海市信用修复制度的实施方案》的通知",
+   "date": "2026-11-12",
+   "url": "https://www.shanghai.gov.cn/nw12344/20261112/76c12b579f2d4ebfb9dcdccb2f20673a.html",
+   "source": "shgov",
+   "channel": "市政府文件"
+  },
+  {
+   "title": "上海市人民政府办公厅关于印发《上海市自然灾害调查评估办法》的通知",
+   "date": "2026-11-12",
+   "url": "https://www.shanghai.gov.cn/nw12344/20261112/624f39e4c0fa404d92974ca183169ce4.html",
+   "source": "shgov",
+   "channel": "市政府文件"
+  },
   {
    "title": "国家统计局2026年常规统计督察第2统计督察组向上海市反馈统计督察意见",
    "date": "2026-11-11",
