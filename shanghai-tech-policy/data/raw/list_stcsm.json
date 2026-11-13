@@ -1,8 +1,15 @@
 {
  "source": "stcsm",
  "channel": "通知告示",
- "count": 3447,
+ "count": 3448,
  "items": [
+  {
+   "title": "关于上海市2026年第十批拟入库科技型中小企业名单的公示",
+   "date": "2026-11-13",
+   "url": "https://stcsm.sh.gov.cn/zwgk/tzgs/gsgg/zhgsgg/20261113/c3d3645cdef441deb34f4692579e7415.html",
+   "source": "stcsm",
+   "channel": "通知告示"
+  },
   {
    "title": "关于上海市2026年度关键技术研发计划“超导”项目立项的通知",
    "date": "2026-11-12",

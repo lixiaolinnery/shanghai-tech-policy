@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generatedAt": "2026-11-13 17:56",
-  "total": 3138,
+  "generatedAt": "2026-11-14 01:37",
+  "total": 3139,
   "years": [
    "2015",
    "2016",
@@ -86,11 +86,50 @@
    "黄浦区人民政府/科委"
   ],
   "deepCount": 1001,
-  "pdfCount": 1842,
+  "pdfCount": 1843,
   "docNoCount": 1161,
   "missingDetail": 0
  },
  "policies": [
+  {
+   "id": "049145b94416c633",
+   "title": "关于上海市2026年第十批拟入库科技型中小企业名单的公示",
+   "docNo": "",
+   "issuer": "上海市科技创业中心",
+   "publishDate": "2026-11-13",
+   "year": "2026",
+   "category": "科技型中小企业",
+   "noticeType": "公示通知",
+   "level": "市级",
+   "district": "",
+   "url": "https://stcsm.sh.gov.cn/zwgk/tzgs/gsgg/zhgsgg/20261113/c3d3645cdef441deb34f4692579e7415.html",
+   "pdfUrls": [
+    "https://stcsm.sh.gov.cn/cmsres/d7/d70d934fca704eb19395a4ebecf333bc/c7e494891e3b50cfb94dafba9724af43.pdf"
+   ],
+   "attachments": [],
+   "source": "stcsm",
+   "sourceName": "上海市科学技术委员会（上海科技）",
+   "sourceShort": "市科委",
+   "channel": "通知告示",
+   "summary": "关于上海市2026年第十批拟入库科技型中小企业名单的公示",
+   "conditions": [],
+   "benefits": [],
+   "materials": [],
+   "timeline": [],
+   "timeHints": [
+    "2026-11-13"
+   ],
+   "moneyHints": [],
+   "keywords": [
+    "科技型中小企业"
+   ],
+   "textChars": 523,
+   "depth": "basic",
+   "isFunding": false,
+   "linkOk": true,
+   "linkNote": "",
+   "pdfOk": true
+  },
   {
    "id": "a3905fa691617b35",
    "title": "关于上海市2026年度关键技术研发计划“超导”项目立项的通知",
