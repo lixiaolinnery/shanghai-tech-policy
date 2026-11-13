@@ -1,8 +1,15 @@
 {
  "source": "stcsm",
  "channel": "政策文件",
- "count": 103,
+ "count": 104,
  "items": [
+  {
+   "title": "关于印发《上海市科学数据管理办法（试行）》的通知",
+   "date": "2026-11-13",
+   "url": "https://stcsm.sh.gov.cn/zwgk/kjzc/zcwj/kwzcxwj/20261113/110dc7257e8b4ca485a9ad10ca1fed9a.html",
+   "source": "stcsm",
+   "channel": "政策文件"
+  },
   {
    "title": "上海市人民政府办公厅印发《关于支持长三角G60科创走廊策源地建设的若干措施》的通知",
    "date": "2025-12-26",

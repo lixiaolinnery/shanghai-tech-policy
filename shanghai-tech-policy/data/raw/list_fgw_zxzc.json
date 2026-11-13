@@ -1,8 +1,15 @@
 {
  "source": "shgov",
  "channel": "发改委最新政策",
- "count": 3062,
+ "count": 3063,
  "items": [
+  {
+   "title": "上海市发展和改革委员会关于车用汽、柴油价格的通知（2026年11月12日）",
+   "date": "2026-11-12",
+   "url": "https://fgw.sh.gov.cn/fgw_jggl/20261112/0f5137f27eff456e9e9c2db749801342.html",
+   "source": "shgov",
+   "channel": "发改委最新政策"
+  },
   {
    "title": "加强整体性谋划、成体系推进、制度化解决！陈吉宁调研我市优化营商环境工作",
    "date": "2026-11-12",
