@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generatedAt": "2026-11-16 08:14",
-  "total": 3140,
+  "generatedAt": "2026-11-16 14:49",
+  "total": 3141,
   "years": [
    "2015",
    "2016",
@@ -410,6 +410,44 @@
     "科技型中小企业"
    ],
    "textChars": 330,
+   "depth": "basic",
+   "isFunding": false,
+   "linkOk": true,
+   "linkNote": "",
+   "pdfOk": true
+  },
+  {
+   "id": "aea75997c5d17cd9",
+   "title": "2026年度上海市经济系列知识产权专业高级职称评审委员会评审通过人员名单公示",
+   "docNo": "",
+   "issuer": "上海市经济系列知识产权专业高级职称评审委员会",
+   "publishDate": "2026-11-02",
+   "year": "2026",
+   "category": "知识产权",
+   "noticeType": "公示通知",
+   "level": "市级",
+   "district": "",
+   "url": "https://sipa.sh.gov.cn/tzgg/20261105/ae12355fda1645ff9bf567d07cc3f704.html",
+   "pdfUrls": [],
+   "attachments": [],
+   "source": "sipa",
+   "sourceName": "上海市知识产权局",
+   "sourceShort": "市知识产权局",
+   "channel": "通知公告",
+   "summary": "2026年度上海市经济系列知识产权专业高级职称评审委员会评审通过人员名单公示",
+   "conditions": [],
+   "benefits": [],
+   "materials": [],
+   "timeline": [],
+   "timeHints": [
+    "2026-11-02",
+    "2026-11-06"
+   ],
+   "moneyHints": [],
+   "keywords": [
+    "知识产权"
+   ],
+   "textChars": 1043,
    "depth": "basic",
    "isFunding": false,
    "linkOk": true,

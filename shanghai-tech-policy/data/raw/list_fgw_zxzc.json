@@ -1,8 +1,15 @@
 {
  "source": "shgov",
  "channel": "发改委最新政策",
- "count": 3064,
+ "count": 3065,
  "items": [
+  {
+   "title": "上海市发展和改革委员会 上海市人力资源和社会保障局关于表彰上海市绿色转型先进集体和先进个人的决定",
+   "date": "2026-11-13",
+   "url": "https://fgw.sh.gov.cn/fgw_zyjyhhjbh/20261113/0369627c16124f77987f8712e7734ddc.html",
+   "source": "shgov",
+   "channel": "发改委最新政策"
+  },
   {
    "title": "上海市2026年新型储能奖励项目目录及度电奖励拟拨付资金公示",
    "date": "2026-11-13",
