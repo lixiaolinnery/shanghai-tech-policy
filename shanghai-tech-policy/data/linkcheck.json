@@ -1,13 +1,13 @@
 {
- "checked": 5621,
- "total": 5634,
+ "checked": 5623,
+ "total": 5636,
  "byCode": {
-  "200": 5592,
+  "200": 5594,
   "000": 5,
   "403": 22,
   "404": 2
  },
- "okPages": 3117,
+ "okPages": 3119,
  "okPdf": 1839,
  "pdfPolicies": 1843,
  "sslUnverified": [
@@ -411,6 +411,13 @@
    "code": "200",
    "err": "",
    "kind": "pdf",
+   "sslUnverified": false,
+   "verdict": "ok"
+  },
+  "https://sipa.sh.gov.cn/tzgg/20261105/ae12355fda1645ff9bf567d07cc3f704.html": {
+   "code": "200",
+   "err": "",
+   "kind": "page",
    "sslUnverified": false,
    "verdict": "ok"
   },
@@ -39642,7 +39649,14 @@
    "sslUnverified": false,
    "verdict": "ok"
   },
-  "https://sipa.sh.gov.cn/tzgg/20261105/ae12355fda1645ff9bf567d07cc3f704.html": {
+  "https://sipa.sh.gov.cn/tzgg/20261116/711bba5f84334c7581048f5ee5a59053.html": {
+   "code": "200",
+   "err": "",
+   "kind": "page",
+   "sslUnverified": false,
+   "verdict": "ok"
+  },
+  "https://www.sheitc.sh.gov.cn/gg/20261116/38de071c15a245c382872ed1c0a24f3e.html": {
    "code": "200",
    "err": "",
    "kind": "page",

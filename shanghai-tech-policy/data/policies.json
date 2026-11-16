@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generatedAt": "2026-11-16 14:49",
-  "total": 3141,
+  "generatedAt": "2026-11-17 00:32",
+  "total": 3143,
   "years": [
    "2015",
    "2016",
@@ -85,12 +85,105 @@
    "静安区人民政府/科委",
    "黄浦区人民政府/科委"
   ],
-  "deepCount": 1002,
+  "deepCount": 1003,
   "pdfCount": 1843,
   "docNoCount": 1161,
   "missingDetail": 0
  },
  "policies": [
+  {
+   "id": "2de13ee7377cc3aa",
+   "title": "2026年度上海市中小企业发展专项资金（专精特新中小企业贷款贴息）拟支持项目公示",
+   "docNo": "",
+   "issuer": "上海市经济和信息化委员会",
+   "publishDate": "2026-11-16",
+   "year": "2026",
+   "category": "专精特新中小企业",
+   "noticeType": "公示通知",
+   "level": "市级",
+   "district": "",
+   "url": "https://www.sheitc.sh.gov.cn/gg/20261116/38de071c15a245c382872ed1c0a24f3e.html",
+   "pdfUrls": [],
+   "attachments": [
+    {
+     "name": "附件：专精特新中小企业信用贷款贴息拟支持项目汇总表.wps",
+     "url": "https://www.sheitc.sh.gov.cn/cmsres/de/ded6101f55b843dc8848cfefd0dd1f11/c19e6503002b55be2a3a51506a1cc7e5.wps"
+    }
+   ],
+   "source": "sheitc",
+   "sourceName": "上海市经济和信息化委员会",
+   "sourceShort": "市经信委",
+   "channel": "gg",
+   "summary": "60805934 Fax:60801429",
+   "conditions": [],
+   "benefits": [
+    "涉及金额：本次拟支持金额合计为13374.21万元"
+   ],
+   "materials": [],
+   "timeline": [],
+   "timeHints": [
+    "2026-11-16",
+    "2026-11-20",
+    "2017-12-25"
+   ],
+   "moneyHints": [
+    "本次拟支持金额合计为13374.21万元"
+   ],
+   "keywords": [
+    "专精特新",
+    "专精特新中小企业",
+    "专项资金",
+    "贴息"
+   ],
+   "textChars": 858,
+   "depth": "full",
+   "isFunding": true,
+   "linkOk": true,
+   "linkNote": "",
+   "pdfOk": true
+  },
+  {
+   "id": "f21d82b1e2e190de",
+   "title": "2026年上海市知识产权集中托管项目公示",
+   "docNo": "",
+   "issuer": "上海市知识产权局",
+   "publishDate": "2026-11-16",
+   "year": "2026",
+   "category": "知识产权",
+   "noticeType": "公示通知",
+   "level": "市级",
+   "district": "",
+   "url": "https://sipa.sh.gov.cn/tzgg/20261116/711bba5f84334c7581048f5ee5a59053.html",
+   "pdfUrls": [],
+   "attachments": [
+    {
+     "name": "附件-2026年上海市知识产权集中托管项目拟认定名单.docx",
+     "url": "https://sipa.sh.gov.cn/cmsres/71/71ffe5f966b543b8a437b6c8e832a1e6/b23289bb71fa33f2126968063232a4ef.docx"
+    }
+   ],
+   "source": "sipa",
+   "sourceName": "上海市知识产权局",
+   "sourceShort": "市知识产权局",
+   "channel": "通知公告",
+   "summary": "2026年上海市知识产权集中托管项目公示",
+   "conditions": [],
+   "benefits": [],
+   "materials": [],
+   "timeline": [],
+   "timeHints": [
+    "2026-11-16"
+   ],
+   "moneyHints": [],
+   "keywords": [
+    "知识产权"
+   ],
+   "textChars": 341,
+   "depth": "basic",
+   "isFunding": false,
+   "linkOk": true,
+   "linkNote": "",
+   "pdfOk": true
+  },
   {
    "id": "049145b94416c633",
    "title": "关于上海市2026年第十批拟入库科技型中小企业名单的公示",
