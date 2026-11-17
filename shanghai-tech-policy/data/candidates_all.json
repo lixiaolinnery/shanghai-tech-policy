@@ -16060,6 +16060,50 @@
   "techRelevant": false
  },
  {
+  "title": "上海市经济信息化委关于开展2026年度上海市新一代智能制造服务商申报工作的通知",
+  "publishDate": "2026-11-17",
+  "year": "2026",
+  "url": "https://www.sheitc.sh.gov.cn/cyfz/20261117/95ba0f567df843a0bcd251dba5e0204b.html",
+  "source": "sheitc",
+  "channel": "cyfz",
+  "category": "其他科技政策",
+  "noticeType": "申报通知",
+  "techRelevant": false
+ },
+ {
+  "title": "2026年度上海市中小企业发展专项资金（专精特新中小企业贷款贴息）拟支持项目公示",
+  "publishDate": "2026-11-16",
+  "year": "2026",
+  "url": "https://www.sheitc.sh.gov.cn/gg/20261116/38de071c15a245c382872ed1c0a24f3e.html",
+  "source": "sheitc",
+  "channel": "cyfz",
+  "category": "专精特新中小企业",
+  "noticeType": "公示通知",
+  "techRelevant": true
+ },
+ {
+  "title": "关于征集“人工智能+新材料”相关工作情况的通知",
+  "publishDate": "2026-11-13",
+  "year": "2026",
+  "url": "https://www.sheitc.sh.gov.cn/gg/20261113/b707aebc334b43c7abc4845cbe1597fc.html",
+  "source": "sheitc",
+  "channel": "cyfz",
+  "category": "其他科技政策",
+  "noticeType": "申报通知",
+  "techRelevant": false
+ },
+ {
+  "title": "上海市工业通信业用能设备更新专项扶持计划公示（2025年度第三批）",
+  "publishDate": "2026-11-12",
+  "year": "2026",
+  "url": "https://www.sheitc.sh.gov.cn/gg/20261114/2e33754519024d98b7b6f5330f49baa3.html",
+  "source": "sheitc",
+  "channel": "cyfz",
+  "category": "技术改造",
+  "noticeType": "公示通知",
+  "techRelevant": true
+ },
+ {
   "title": "上海市经济和信息化委员会 上海市财政局 国家税务总局上海市税务局关于印发《临港新片区2026年第二批重点产业企业所得税优惠资格认定企业名单》的通知",
   "publishDate": "2026-11-09",
   "year": "2026",
@@ -20578,39 +20622,6 @@
   "channel": "cyfz",
   "category": "其他科技政策",
   "noticeType": "其他",
-  "techRelevant": false
- },
- {
-  "title": "2026年度上海市中小企业发展专项资金（专精特新中小企业贷款贴息）拟支持项目公示",
-  "publishDate": "2026-11-16",
-  "year": "2026",
-  "url": "https://www.sheitc.sh.gov.cn/gg/20261116/38de071c15a245c382872ed1c0a24f3e.html",
-  "source": "sheitc",
-  "channel": "gg",
-  "category": "专精特新中小企业",
-  "noticeType": "公示通知",
-  "techRelevant": true
- },
- {
-  "title": "上海市工业通信业用能设备更新专项扶持计划公示（2025年度第三批）",
-  "publishDate": "2026-11-12",
-  "year": "2026",
-  "url": "https://www.sheitc.sh.gov.cn/gg/20261114/2e33754519024d98b7b6f5330f49baa3.html",
-  "source": "sheitc",
-  "channel": "gg",
-  "category": "技术改造",
-  "noticeType": "公示通知",
-  "techRelevant": true
- },
- {
-  "title": "关于征集“人工智能+新材料”相关工作情况的通知",
-  "publishDate": "2026-11-13",
-  "year": "2026",
-  "url": "https://www.sheitc.sh.gov.cn/gg/20261113/b707aebc334b43c7abc4845cbe1597fc.html",
-  "source": "sheitc",
-  "channel": "gg",
-  "category": "其他科技政策",
-  "noticeType": "申报通知",
   "techRelevant": false
  },
  {
@@ -77273,6 +77284,17 @@
   "category": "知识产权",
   "noticeType": "政策红头文件",
   "techRelevant": true
+ },
+ {
+  "title": "关于上海市生物医药特殊物品进出境联合监管机制试点单位的公示",
+  "publishDate": "2026-11-17",
+  "year": "2026",
+  "url": "https://stcsm.sh.gov.cn/zwgk/tzgs/gsgg/zhgsgg/20261117/6cf1e9228f324f8a825d298d6b0e1805.html",
+  "source": "stcsm",
+  "channel": "通知告示",
+  "category": "其他科技政策",
+  "noticeType": "公示通知",
+  "techRelevant": false
  },
  {
   "title": "关于上海市2026年第八批入库科技型中小企业的公告",
