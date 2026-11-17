@@ -302,6 +302,20 @@
   }
  ],
  "results": {
+  "https://www.sheitc.sh.gov.cn/gg/20261116/38de071c15a245c382872ed1c0a24f3e.html": {
+   "code": "200",
+   "err": "",
+   "kind": "page",
+   "sslUnverified": false,
+   "verdict": "ok"
+  },
+  "https://sipa.sh.gov.cn/tzgg/20261116/711bba5f84334c7581048f5ee5a59053.html": {
+   "code": "200",
+   "err": "",
+   "kind": "page",
+   "sslUnverified": false,
+   "verdict": "ok"
+  },
   "https://stcsm.sh.gov.cn/zwgk/tzgs/gsgg/zhgsgg/20261113/c3d3645cdef441deb34f4692579e7415.html": {
    "code": "200",
    "err": "",
@@ -39643,20 +39657,6 @@
    "verdict": "ok"
   },
   "https://www.lingang.gov.cn/html/website/lg/index/government/file/1481569416345120770.html": {
-   "code": "200",
-   "err": "",
-   "kind": "page",
-   "sslUnverified": false,
-   "verdict": "ok"
-  },
-  "https://sipa.sh.gov.cn/tzgg/20261116/711bba5f84334c7581048f5ee5a59053.html": {
-   "code": "200",
-   "err": "",
-   "kind": "page",
-   "sslUnverified": false,
-   "verdict": "ok"
-  },
-  "https://www.sheitc.sh.gov.cn/gg/20261116/38de071c15a245c382872ed1c0a24f3e.html": {
    "code": "200",
    "err": "",
    "kind": "page",
