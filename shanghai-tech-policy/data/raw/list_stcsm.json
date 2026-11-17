@@ -1,8 +1,15 @@
 {
  "source": "stcsm",
  "channel": "通知告示",
- "count": 3448,
+ "count": 3449,
  "items": [
+  {
+   "title": "关于上海市2026年第八批入库科技型中小企业的公告",
+   "date": "2026-11-17",
+   "url": "https://stcsm.sh.gov.cn/zwgk/tzgs/gsgg/zhgsgg/20261117/c9cf131458ca4871817aabf138bd5dc7.html",
+   "source": "stcsm",
+   "channel": "通知告示"
+  },
   {
    "title": "关于上海市2026年第十批拟入库科技型中小企业名单的公示",
    "date": "2026-11-13",

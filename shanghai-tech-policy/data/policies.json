@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generatedAt": "2026-11-17 08:29",
-  "total": 3143,
+  "generatedAt": "2026-11-17 16:26",
+  "total": 3144,
   "years": [
    "2015",
    "2016",
@@ -86,11 +86,50 @@
    "黄浦区人民政府/科委"
   ],
   "deepCount": 1003,
-  "pdfCount": 1843,
+  "pdfCount": 1844,
   "docNoCount": 1161,
   "missingDetail": 0
  },
  "policies": [
+  {
+   "id": "c6dfa77154c7713e",
+   "title": "关于上海市2026年第八批入库科技型中小企业的公告",
+   "docNo": "",
+   "issuer": "上海市科学技术委员会",
+   "publishDate": "2026-11-17",
+   "year": "2026",
+   "category": "科技型中小企业",
+   "noticeType": "名单公布",
+   "level": "市级",
+   "district": "",
+   "url": "https://stcsm.sh.gov.cn/zwgk/tzgs/gsgg/zhgsgg/20261117/c9cf131458ca4871817aabf138bd5dc7.html",
+   "pdfUrls": [
+    "https://stcsm.sh.gov.cn/cmsres/7b/7b78ccaece2d4e67a95cdf38c07fd54b/524d3211d1c0808a671ab6efdcce0ac8.pdf"
+   ],
+   "attachments": [],
+   "source": "stcsm",
+   "sourceName": "上海市科学技术委员会（上海科技）",
+   "sourceShort": "市科委",
+   "channel": "通知告示",
+   "summary": "关于上海市2026年第八批入库科技型中小企业的公告",
+   "conditions": [],
+   "benefits": [],
+   "materials": [],
+   "timeline": [],
+   "timeHints": [
+    "2026-11-11"
+   ],
+   "moneyHints": [],
+   "keywords": [
+    "科技型中小企业"
+   ],
+   "textChars": 330,
+   "depth": "basic",
+   "isFunding": false,
+   "linkOk": true,
+   "linkNote": "",
+   "pdfOk": true
+  },
   {
    "id": "2de13ee7377cc3aa",
    "title": "2026年度上海市中小企业发展专项资金（专精特新中小企业贷款贴息）拟支持项目公示",

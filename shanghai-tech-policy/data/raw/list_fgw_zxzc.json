@@ -1,8 +1,22 @@
 {
  "source": "shgov",
  "channel": "发改委最新政策",
- "count": 3065,
+ "count": 3067,
  "items": [
+  {
+   "title": "上海市2026年度天然气分布式供能系统专项扶持资金拨付计划(草案)公示",
+   "date": "2026-11-17",
+   "url": "https://fgw.sh.gov.cn/fgw_gsgg/20261117/84f38c781078446e8602fd4af61edfb3.html",
+   "source": "shgov",
+   "channel": "发改委最新政策"
+  },
+  {
+   "title": "关于开展企业绿色绩效评价 加大金融支持力度的通知",
+   "date": "2026-11-13",
+   "url": "https://fgw.sh.gov.cn/fgw_zyjyhhjbh/20261113/a25134d631e842c0a5f4fc95a15731f4.html",
+   "source": "shgov",
+   "channel": "发改委最新政策"
+  },
   {
    "title": "上海市发展和改革委员会 上海市人力资源和社会保障局关于表彰上海市绿色转型先进集体和先进个人的决定",
    "date": "2026-11-13",
