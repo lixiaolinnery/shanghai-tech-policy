@@ -1,8 +1,15 @@
 {
  "source": "shgov",
  "channel": "发改委最新政策",
- "count": 3067,
+ "count": 3068,
  "items": [
+  {
+   "title": "上海市2026年度第二批可再生能源专项资金拨付计划（草案）公示",
+   "date": "2026-11-17",
+   "url": "https://fgw.sh.gov.cn/fgw_gsgg/20261117/f671841eeb26465ba34552868c49e39e.html",
+   "source": "shgov",
+   "channel": "发改委最新政策"
+  },
   {
    "title": "上海市2026年度天然气分布式供能系统专项扶持资金拨付计划(草案)公示",
    "date": "2026-11-17",

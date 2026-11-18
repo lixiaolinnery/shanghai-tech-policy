@@ -1,8 +1,15 @@
 {
  "source": "stcsm",
  "channel": "通知告示",
- "count": 3450,
+ "count": 3451,
  "items": [
+  {
+   "title": "关于上海市首次升规达标科技服务业企业名单的公示",
+   "date": "2026-11-18",
+   "url": "https://stcsm.sh.gov.cn/zwgk/tzgs/gsgg/zhgsgg/20261118/121c3b1f19784b63896614412f2eac37.html",
+   "source": "stcsm",
+   "channel": "通知告示"
+  },
   {
    "title": "关于上海市生物医药特殊物品进出境联合监管机制试点单位的公示",
    "date": "2026-11-17",

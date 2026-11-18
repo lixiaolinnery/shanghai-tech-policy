@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generatedAt": "2026-11-18 15:24",
-  "total": 3144,
+  "generatedAt": "2026-11-19 00:41",
+  "total": 3146,
   "years": [
    "2015",
    "2016",
@@ -86,11 +86,96 @@
    "黄浦区人民政府/科委"
   ],
   "deepCount": 1003,
-  "pdfCount": 1844,
+  "pdfCount": 1846,
   "docNoCount": 1161,
   "missingDetail": 0
  },
  "policies": [
+  {
+   "id": "9fc48ceaba45cedc",
+   "title": "关于上海市首次升规达标科技服务业企业名单的公示",
+   "docNo": "",
+   "issuer": "上海市科学技术委员会",
+   "publishDate": "2026-11-18",
+   "year": "2026",
+   "category": "其他科技政策",
+   "noticeType": "公示通知",
+   "level": "市级",
+   "district": "",
+   "url": "https://stcsm.sh.gov.cn/zwgk/tzgs/gsgg/zhgsgg/20261118/121c3b1f19784b63896614412f2eac37.html",
+   "pdfUrls": [
+    "https://stcsm.sh.gov.cn/cmsres/db/dbca2c7e84b14fd09893e6b1dd2cc5d2/fb4039afb873d6f5a99f394c6c1d7467.pdf"
+   ],
+   "attachments": [],
+   "source": "stcsm",
+   "sourceName": "上海市科学技术委员会（上海科技）",
+   "sourceShort": "市科委",
+   "channel": "通知告示",
+   "summary": "关于上海市首次升规达标科技服务业企业名单的公示",
+   "conditions": [],
+   "benefits": [],
+   "materials": [],
+   "timeline": [],
+   "timeHints": [
+    "2026-11-18",
+    "2026-11-24"
+   ],
+   "moneyHints": [],
+   "keywords": [],
+   "textChars": 513,
+   "depth": "basic",
+   "isFunding": false,
+   "linkOk": true,
+   "linkNote": "",
+   "pdfOk": true
+  },
+  {
+   "id": "c21df93f6a310081",
+   "title": "上海市经济信息化委关于组织开展2026年创新型中小企业、专精特新中小企业培育工作（第四批）的通知",
+   "docNo": "",
+   "issuer": "上海市经济和信息化委员会",
+   "publishDate": "2026-11-18",
+   "year": "2026",
+   "category": "专精特新中小企业",
+   "noticeType": "申报通知",
+   "level": "市级",
+   "district": "",
+   "url": "https://www.sheitc.sh.gov.cn/cyfz/20261118/a9fc4838290345fbaa2b48cfe1f34b7b.html",
+   "pdfUrls": [
+    "https://www.sheitc.sh.gov.cn/cmsres/e1/e11c96908e914351863cae0eb8948c81/4807181ec5511502d9efbddde4eab12b.pdf"
+   ],
+   "attachments": [
+    {
+     "name": "附件：沪经信企〔2026〕727号附件.doc",
+     "url": "https://www.sheitc.sh.gov.cn/cmsres/72/726f74c352734dfe96a32b7c6db876aa/8401b6a3d9b4a460f12a06a178eb249b.doc"
+    }
+   ],
+   "source": "sheitc",
+   "sourceName": "上海市经济和信息化委员会",
+   "sourceShort": "市经信委",
+   "channel": "cyfz",
+   "summary": "60805934 Fax:60801429",
+   "conditions": [],
+   "benefits": [],
+   "materials": [],
+   "timeline": [],
+   "timeHints": [
+    "2026-11-17",
+    "2017-12-25"
+   ],
+   "moneyHints": [],
+   "keywords": [
+    "专精特新",
+    "专精特新中小企业",
+    "创新型中小企业"
+   ],
+   "textChars": 2650,
+   "depth": "basic",
+   "isFunding": false,
+   "linkOk": true,
+   "linkNote": "",
+   "pdfOk": true
+  },
   {
    "id": "c6dfa77154c7713e",
    "title": "关于上海市2026年第八批入库科技型中小企业的公告",
