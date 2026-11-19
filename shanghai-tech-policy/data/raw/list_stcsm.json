@@ -1,8 +1,29 @@
 {
  "source": "stcsm",
  "channel": "通知告示",
- "count": 3451,
+ "count": 3454,
  "items": [
+  {
+   "title": "关于公示朗根拜梅德科技（上海）有限公司等企业拟认定高新技术企业的通知",
+   "date": "2026-11-19",
+   "url": "https://stcsm.sh.gov.cn/zwgk/tzgs/gsgg/zhgsgg/20261119/3ef78b09082149d2a47cfcf23096b76d.html",
+   "source": "stcsm",
+   "channel": "通知告示"
+  },
+  {
+   "title": "关于2026年度第二批科技金融保费拟补贴结果的公示",
+   "date": "2026-11-19",
+   "url": "https://stcsm.sh.gov.cn/zwgk/tzgs/gsgg/zhgsgg/20261119/13898bfc269346e0870d905f3438f246.html",
+   "source": "stcsm",
+   "channel": "通知告示"
+  },
+  {
+   "title": "关于公示上海市2026年第五批拟更名高新技术企业名单的通知",
+   "date": "2026-11-19",
+   "url": "https://stcsm.sh.gov.cn/zwgk/tzgs/gsgg/zhgsgg/20261119/c9c73f8f02dd4292b3ca82e4876b6845.html",
+   "source": "stcsm",
+   "channel": "通知告示"
+  },
   {
    "title": "关于上海市首次升规达标科技服务业企业名单的公示",
    "date": "2026-11-18",

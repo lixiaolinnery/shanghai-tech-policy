@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generatedAt": "2026-11-19 12:16",
-  "total": 3146,
+  "generatedAt": "2026-11-19 21:32",
+  "total": 3150,
   "years": [
    "2015",
    "2016",
@@ -86,11 +86,129 @@
    "黄浦区人民政府/科委"
   ],
   "deepCount": 1003,
-  "pdfCount": 1846,
+  "pdfCount": 1849,
   "docNoCount": 1161,
   "missingDetail": 0
  },
  "policies": [
+  {
+   "id": "4f707d836abc54a6",
+   "title": "关于公示朗根拜梅德科技（上海）有限公司等企业拟认定高新技术企业的通知",
+   "docNo": "",
+   "issuer": "上海市高新技术企业认定办公室",
+   "publishDate": "2026-11-19",
+   "year": "2026",
+   "category": "高新技术企业",
+   "noticeType": "公示通知",
+   "level": "市级",
+   "district": "",
+   "url": "https://stcsm.sh.gov.cn/zwgk/tzgs/gsgg/zhgsgg/20261119/3ef78b09082149d2a47cfcf23096b76d.html",
+   "pdfUrls": [
+    "https://stcsm.sh.gov.cn/cmsres/5e/5e32d911f516417e9420557a20d2d002/f6c310a95aaf52285d34441cdc861f5a.pdf"
+   ],
+   "attachments": [],
+   "source": "stcsm",
+   "sourceName": "上海市科学技术委员会（上海科技）",
+   "sourceShort": "市科委",
+   "channel": "通知告示",
+   "summary": "关于公示朗根拜梅德科技（上海）有限公司等企业拟认定高新技术企业的通知",
+   "conditions": [],
+   "benefits": [],
+   "materials": [],
+   "timeline": [],
+   "timeHints": [
+    "2026-11-19"
+   ],
+   "moneyHints": [],
+   "keywords": [
+    "高新技术企业"
+   ],
+   "textChars": 553,
+   "depth": "basic",
+   "isFunding": false,
+   "linkOk": true,
+   "linkNote": "",
+   "pdfOk": true
+  },
+  {
+   "id": "72aabe422139de22",
+   "title": "关于公示上海市2026年第五批拟更名高新技术企业名单的通知",
+   "docNo": "",
+   "issuer": "上海市高新技术企业认定办公室",
+   "publishDate": "2026-11-19",
+   "year": "2026",
+   "category": "高新技术企业",
+   "noticeType": "公示通知",
+   "level": "市级",
+   "district": "",
+   "url": "https://stcsm.sh.gov.cn/zwgk/tzgs/gsgg/zhgsgg/20261119/c9c73f8f02dd4292b3ca82e4876b6845.html",
+   "pdfUrls": [
+    "https://stcsm.sh.gov.cn/cmsres/0b/0b83b8438a3644c193f285a375f68104/6d5783c962696316c6b87f3d952e8ef5.pdf"
+   ],
+   "attachments": [],
+   "source": "stcsm",
+   "sourceName": "上海市科学技术委员会（上海科技）",
+   "sourceShort": "市科委",
+   "channel": "通知告示",
+   "summary": "关于公示上海市2026年第五批拟更名高新技术企业名单的通知",
+   "conditions": [],
+   "benefits": [],
+   "materials": [],
+   "timeline": [],
+   "timeHints": [
+    "2026-11-19"
+   ],
+   "moneyHints": [],
+   "keywords": [
+    "高新技术企业"
+   ],
+   "textChars": 516,
+   "depth": "basic",
+   "isFunding": false,
+   "linkOk": true,
+   "linkNote": "",
+   "pdfOk": true
+  },
+  {
+   "id": "c5324afe5c93f365",
+   "title": "关于2026年度第二批科技金融保费拟补贴结果的公示",
+   "docNo": "",
+   "issuer": "上海市科学技术委员会",
+   "publishDate": "2026-11-19",
+   "year": "2026",
+   "category": "科技金融",
+   "noticeType": "公示通知",
+   "level": "市级",
+   "district": "",
+   "url": "https://stcsm.sh.gov.cn/zwgk/tzgs/gsgg/zhgsgg/20261119/13898bfc269346e0870d905f3438f246.html",
+   "pdfUrls": [
+    "https://stcsm.sh.gov.cn/cmsres/d5/d5cd03397bd34426bb2817814758030f/dbf91a8d79c16cba24700167a5dc1e6e.pdf"
+   ],
+   "attachments": [],
+   "source": "stcsm",
+   "sourceName": "上海市科学技术委员会（上海科技）",
+   "sourceShort": "市科委",
+   "channel": "通知告示",
+   "summary": "关于2026年度第二批科技金融保费拟补贴结果的公示",
+   "conditions": [],
+   "benefits": [],
+   "materials": [],
+   "timeline": [],
+   "timeHints": [
+    "2026-11-19",
+    "2026-11-25"
+   ],
+   "moneyHints": [],
+   "keywords": [
+    "科技金融"
+   ],
+   "textChars": 556,
+   "depth": "basic",
+   "isFunding": true,
+   "linkOk": true,
+   "linkNote": "",
+   "pdfOk": true
+  },
   {
    "id": "9fc48ceaba45cedc",
    "title": "关于上海市首次升规达标科技服务业企业名单的公示",
@@ -261,6 +379,44 @@
    ],
    "textChars": 858,
    "depth": "full",
+   "isFunding": true,
+   "linkOk": true,
+   "linkNote": "",
+   "pdfOk": true
+  },
+  {
+   "id": "3009ee8dc840b879",
+   "title": "2026年度上海市专利代理机构高质量发展项目专项资金拨付名单公示",
+   "docNo": "",
+   "issuer": "上海市知识产权局",
+   "publishDate": "2026-11-16",
+   "year": "2026",
+   "category": "知识产权",
+   "noticeType": "公示通知",
+   "level": "市级",
+   "district": "",
+   "url": "https://sipa.sh.gov.cn/tzgg/20261116/109785712a35496da9438922c50e3576.html",
+   "pdfUrls": [],
+   "attachments": [],
+   "source": "sipa",
+   "sourceName": "上海市知识产权局",
+   "sourceShort": "市知识产权局",
+   "channel": "通知公告",
+   "summary": "2026年度上海市专利代理机构高质量发展项目专项资金拨付名单公示",
+   "conditions": [],
+   "benefits": [],
+   "materials": [],
+   "timeline": [],
+   "timeHints": [
+    "2026-11-16"
+   ],
+   "moneyHints": [],
+   "keywords": [
+    "专项资金",
+    "知识产权"
+   ],
+   "textChars": 471,
+   "depth": "basic",
    "isFunding": true,
    "linkOk": true,
    "linkNote": "",
