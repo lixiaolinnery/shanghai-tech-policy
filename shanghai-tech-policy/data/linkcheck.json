@@ -302,6 +302,48 @@
   }
  ],
  "results": {
+  "https://stcsm.sh.gov.cn/zwgk/tzgs/gsgg/zhgsgg/20261119/3ef78b09082149d2a47cfcf23096b76d.html": {
+   "code": "200",
+   "err": "",
+   "kind": "page",
+   "sslUnverified": false,
+   "verdict": "ok"
+  },
+  "https://stcsm.sh.gov.cn/cmsres/5e/5e32d911f516417e9420557a20d2d002/f6c310a95aaf52285d34441cdc861f5a.pdf": {
+   "code": "200",
+   "err": "",
+   "kind": "pdf",
+   "sslUnverified": false,
+   "verdict": "ok"
+  },
+  "https://stcsm.sh.gov.cn/zwgk/tzgs/gsgg/zhgsgg/20261119/c9c73f8f02dd4292b3ca82e4876b6845.html": {
+   "code": "200",
+   "err": "",
+   "kind": "page",
+   "sslUnverified": false,
+   "verdict": "ok"
+  },
+  "https://stcsm.sh.gov.cn/cmsres/0b/0b83b8438a3644c193f285a375f68104/6d5783c962696316c6b87f3d952e8ef5.pdf": {
+   "code": "200",
+   "err": "",
+   "kind": "pdf",
+   "sslUnverified": false,
+   "verdict": "ok"
+  },
+  "https://stcsm.sh.gov.cn/zwgk/tzgs/gsgg/zhgsgg/20261119/13898bfc269346e0870d905f3438f246.html": {
+   "code": "200",
+   "err": "",
+   "kind": "page",
+   "sslUnverified": false,
+   "verdict": "ok"
+  },
+  "https://stcsm.sh.gov.cn/cmsres/d5/d5cd03397bd34426bb2817814758030f/dbf91a8d79c16cba24700167a5dc1e6e.pdf": {
+   "code": "200",
+   "err": "",
+   "kind": "pdf",
+   "sslUnverified": false,
+   "verdict": "ok"
+  },
   "https://stcsm.sh.gov.cn/zwgk/tzgs/gsgg/zhgsgg/20261118/121c3b1f19784b63896614412f2eac37.html": {
    "code": "200",
    "err": "",
@@ -345,6 +387,13 @@
    "verdict": "ok"
   },
   "https://www.sheitc.sh.gov.cn/gg/20261116/38de071c15a245c382872ed1c0a24f3e.html": {
+   "code": "200",
+   "err": "",
+   "kind": "page",
+   "sslUnverified": false,
+   "verdict": "ok"
+  },
+  "https://sipa.sh.gov.cn/tzgg/20261116/109785712a35496da9438922c50e3576.html": {
    "code": "200",
    "err": "",
    "kind": "page",
@@ -39702,55 +39751,6 @@
    "code": "200",
    "err": "",
    "kind": "page",
-   "sslUnverified": false,
-   "verdict": "ok"
-  },
-  "https://stcsm.sh.gov.cn/zwgk/tzgs/gsgg/zhgsgg/20261119/c9c73f8f02dd4292b3ca82e4876b6845.html": {
-   "code": "200",
-   "err": "",
-   "kind": "page",
-   "sslUnverified": false,
-   "verdict": "ok"
-  },
-  "https://sipa.sh.gov.cn/tzgg/20261116/109785712a35496da9438922c50e3576.html": {
-   "code": "200",
-   "err": "",
-   "kind": "page",
-   "sslUnverified": false,
-   "verdict": "ok"
-  },
-  "https://stcsm.sh.gov.cn/zwgk/tzgs/gsgg/zhgsgg/20261119/13898bfc269346e0870d905f3438f246.html": {
-   "code": "200",
-   "err": "",
-   "kind": "page",
-   "sslUnverified": false,
-   "verdict": "ok"
-  },
-  "https://stcsm.sh.gov.cn/cmsres/0b/0b83b8438a3644c193f285a375f68104/6d5783c962696316c6b87f3d952e8ef5.pdf": {
-   "code": "200",
-   "err": "",
-   "kind": "pdf",
-   "sslUnverified": false,
-   "verdict": "ok"
-  },
-  "https://stcsm.sh.gov.cn/zwgk/tzgs/gsgg/zhgsgg/20261119/3ef78b09082149d2a47cfcf23096b76d.html": {
-   "code": "200",
-   "err": "",
-   "kind": "page",
-   "sslUnverified": false,
-   "verdict": "ok"
-  },
-  "https://stcsm.sh.gov.cn/cmsres/d5/d5cd03397bd34426bb2817814758030f/dbf91a8d79c16cba24700167a5dc1e6e.pdf": {
-   "code": "200",
-   "err": "",
-   "kind": "pdf",
-   "sslUnverified": false,
-   "verdict": "ok"
-  },
-  "https://stcsm.sh.gov.cn/cmsres/5e/5e32d911f516417e9420557a20d2d002/f6c310a95aaf52285d34441cdc861f5a.pdf": {
-   "code": "200",
-   "err": "",
-   "kind": "pdf",
    "sslUnverified": false,
    "verdict": "ok"
   }
