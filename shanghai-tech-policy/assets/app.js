@@ -18,8 +18,10 @@
   ];
 
   var state = { tab: 'all', q: '', cat: '', level: '', year: '', src: '', issuer: '',
+    shownMain: 0, shownDist: 0,
                 shown: 40, fcollapsed: true };
   var PAGE = 40;
+  state.shownMain = PAGE; state.shownDist = PAGE;
 
   // 窄屏时筛选区默认收起，只留一条细栏，避免上下滑动时被筛选控件占满视野
   var MQ = (typeof window.matchMedia === 'function')
@@ -142,16 +144,8 @@
       '</article>';
   }
 
-  function renderList() {
-    var list = currentList();
-    var box = $('#list');
-    if (!list.length) {
-      box.innerHTML = '<div class="empty"><b>没有匹配的政策</b>换个关键词，或点上面的「重置筛选」。</div>';
-      $('#resultbar').innerHTML = '';
-      return;
-    }
-    var slice = list.slice(0, state.shown);
-    // 按年份分组（组内计数用该年总数，而非已显示条数）
+  function blocksHTML(list, shown, moreKey) {
+    var slice = list.slice(0, shown);
     var totals = {};
     list.forEach(function (x) { totals[x.year || '未知'] = (totals[x.year || '未知'] || 0) + 1; });
     var groups = {}, order = [];
@@ -160,21 +154,64 @@
       if (!groups[y]) { groups[y] = []; order.push(y); }
       groups[y].push({ x: x, i: i });
     });
-    box.innerHTML = order.map(function (y) {
+    var html = order.map(function (y) {
       var g = groups[y];
       return '<section class="yeargroup"><div class="yearhead"><h2>' + esc(y) + ' 年</h2>' +
         '<span class="c">共 ' + (totals[y] || g.length) + ' 条，本页显示 ' + g.length + '</span>' +
         '<span class="line"></span></div>' +
         g.map(function (o) { return cardHTML(o.x, o.i); }).join('') + '</section>';
     }).join('');
-    if (list.length > state.shown) {
-      box.innerHTML += '<div class="more"><button class="btn" id="more">加载更多（还有 ' +
-        (list.length - state.shown) + ' 条）</button></div>';
-      $('#more').onclick = function () { state.shown += PAGE; renderList(); };
+    if (list.length > shown) {
+      html += '<div class="more"><button class="btn" data-more="' + moreKey + '">加载更多（还有 ' +
+        (list.length - shown) + ' 条）</button></div>';
     }
+    return html;
+  }
+
+  function levelTabsHTML() {
+    var opts = [['', '全部'], ['市级', '市级及以上'], ['区级', '仅区级']];
+    return '<div class="lvbar">' + opts.map(function (o) {
+      return '<button class="lvbtn' + (state.level === o[0] ? ' on' : '') +
+        '" data-level="' + o[0] + '">' + o[1] + '</button>';
+    }).join('') + '</div>';
+  }
+
+  function renderList() {
+    var list = currentList();
+    var box = $('#list');
+    if (!list.length) {
+      box.innerHTML = '<div class="empty"><b>没有匹配的政策</b>换个关键词，或点上面的「重置筛选」。</div>';
+      $('#resultbar').innerHTML = '';
+      return;
+    }
+    var two = state.tab === 'all' && !state.level;
+    if (two) {
+      var main = list.filter(function (x) { return (x.level || '市级') !== '区级'; });
+      var dist = list.filter(function (x) { return x.level === '区级'; });
+      box.innerHTML = '<div class="split2">' +
+        '<section class="col col-main"><div class="colhead"><h2>主栏目</h2>' +
+        '<span class="c">市及以上发布 · ' + main.length + ' 条</span></div>' +
+        (main.length ? blocksHTML(main, state.shownMain, 'main') : '<div class="empty small">暂无匹配</div>') +
+        '</section>' +
+        '<section class="col col-dist"><div class="colhead"><h2>区栏目</h2>' +
+        '<span class="c">区级发布 · ' + dist.length + ' 条</span></div>' +
+        (dist.length ? blocksHTML(dist, state.shownDist, 'dist') : '<div class="empty small">暂无匹配</div>') +
+        '</section></div>';
+    } else {
+      box.innerHTML = blocksHTML(list, state.shown, 'all');
+    }
+    Array.prototype.forEach.call(box.querySelectorAll('[data-more]'), function (b) {
+      b.onclick = function () {
+        var k = b.getAttribute('data-more');
+        if (k === 'main') state.shownMain += PAGE;
+        else if (k === 'dist') state.shownDist += PAGE;
+        else state.shown += PAGE;
+        renderList();
+      };
+    });
     $('#resultbar').innerHTML = '<div class="cnt">共 <b>' + list.length + '</b> 条，已显示 ' +
-      Math.min(state.shown, list.length) + ' 条</div>' + chipsHTML();
-    // 收起状态下，把条数摘到折叠条上，这样不展开也知道筛出来多少
+      Math.min(state.shown, list.length) + ' 条</div>' +
+      '<div class="rbar-right">' + levelTabsHTML() + chipsHTML() + '</div>';
     var res = $('#fres');
     if (res) res.textContent = list.length + ' 条';
   }
@@ -438,6 +475,14 @@
       if (x) openDetail(x);
     });
     $('#resultbar').addEventListener('click', function (e) {
+      var lv = e.target.closest('.lvbtn');
+      if (lv) {
+        state.level = lv.getAttribute('data-level');
+        $('#f-level').value = state.level;
+        state.shown = PAGE;
+        render();
+        return;
+      }
       var ch = e.target.closest('.chip');
       if (!ch) return;
       var k = ch.dataset.clear;
