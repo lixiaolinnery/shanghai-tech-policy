@@ -30,9 +30,29 @@ ok('首个 tab 处于选中态', !!$('#tabs .tab.on'));
 ok('统计区有数字', $$('#stats .stat').length >= 5, $$('#stats .stat').length);
 
 const cards0 = $$('#list .card');
-ok('列表渲染出卡片', cards0.length === 40, cards0.length);
+ok('列表渲染出卡片（主栏目+区栏目两栏，各 40 条）', cards0.length >= 40 && cards0.length <= 80, cards0.length);
 ok('卡片按年份分组', $$('#list .yeargroup').length > 0, $$('#list .yeargroup').length);
 ok('结果计数栏非空', $('#resultbar').textContent.includes('共'));
+
+console.log('\n== 1b. 层级栏目（结果栏右侧）==');
+ok('结果栏有层级栏目', $$('#resultbar .lvbar .lvbtn').length === 3, $$('#resultbar .lvbtn').length);
+const lvLabels = $$('#resultbar .lvbtn').map(function (b) { return b.textContent.trim(); });
+ok('层级栏目文案为 全部/市级及以上/仅区级',
+   lvLabels.join('|') === '全部|市级及以上|仅区级', lvLabels.join('|'));
+$$('#resultbar .lvbtn').find(function (b) { return b.textContent.indexOf('仅区级') >= 0; })
+  .dispatchEvent(new window.MouseEvent('click', { bubbles: true }));
+const distCards = $$('#list .card');
+ok('仅区级后仍有卡片', distCards.length > 0, distCards.length);
+ok('仅区级后卡片全部是区级',
+   D.policies.filter(function (p) {
+     return distCards.some(function (c) { return c.querySelector('h3').textContent === p.title; });
+   }).every(function (p) { return p.level === '区级'; }));
+ok('仅区级时按钮高亮',
+   $$('#resultbar .lvbtn.on').length === 1 &&
+   $$('#resultbar .lvbtn.on')[0].textContent.indexOf('仅区级') >= 0);
+$$('#resultbar .lvbtn').find(function (b) { return b.textContent.trim() === '全部'; })
+  .dispatchEvent(new window.MouseEvent('click', { bubbles: true }));
+ok('切回全部恢复两栏', $$('#list .split2').length === 1);
 ok('筛选下拉已填充', $$('#f-cat option').length > 5 && $$('#f-year option').length > 3,
    $$('#f-cat option').length + '/' + $$('#f-year option').length);
 
@@ -106,7 +126,7 @@ ok('无结果时显示空状态', !!$('#list .empty'), $('#list').textContent.sl
 
 $('#reset').dispatchEvent(new window.MouseEvent('click', { bubbles: true }));
 await tick(60);
-ok('重置后恢复全部', $$('#list .card').length === 40, $$('#list .card').length);
+ok('重置后恢复全部', $$('#list .card').length >= 40, $$('#list .card').length);
 
 const sel = $('#f-year');
 sel.value = '2025';
@@ -149,7 +169,7 @@ console.log('\n== 5. 加载更多 ==');
 $('#reset').dispatchEvent(new window.MouseEvent('click', { bubbles: true }));
 await tick(60);
 const before = $$('#list .card').length;
-const more = $('#more');
+const more = $('[data-more]');
 ok('存在「加载更多」按钮', !!more);
 if (more) {
   more.dispatchEvent(new window.MouseEvent('click', { bubbles: true }));
