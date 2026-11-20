@@ -300,3 +300,12 @@ main{max-width:1180px;margin:0 auto;padding:18px 20px 80px}
 .col .colhead .c{font-size:12px;color:var(--ink-3)}
 .col-dist .colhead{border-bottom-color:#f0d9c8}
 .col .empty.small{padding:24px 10px}
+
+/* ============ 结果栏层级按钮在手机上的换行 + 下拉框基线对齐 ============ */
+select{font-family:inherit;line-height:1.5;height:38px;padding:0 11px}
+@media(max-width:640px){
+  .resultbar .cnt{flex:1 1 100%}
+  .resultbar .rbar-right{width:100%;justify-content:flex-start;gap:6px}
+  .lvbtn{padding:6px 10px}
+  #reset{margin-top:2px}
+}
