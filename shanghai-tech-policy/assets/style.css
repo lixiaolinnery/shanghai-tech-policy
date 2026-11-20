@@ -124,6 +124,13 @@ main{max-width:1180px;margin:0 auto;padding:18px 20px 80px}
 .resultbar{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;flex-wrap:wrap;gap:8px}
 .resultbar .cnt{font-size:13px;color:var(--ink-2)}
 .resultbar .cnt b{color:var(--red);font-size:15px}
+.resultbar .rbar-right{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.lvbar{display:flex;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:#fff;flex:none}
+.lvbtn{border:0;background:#fff;padding:5px 11px;font-size:12.5px;color:var(--ink-2);cursor:pointer;white-space:nowrap}
+.lvbtn + .lvbtn{border-left:1px solid var(--line)}
+.lvbtn:hover{background:#f6f8fa}
+.lvbtn.on{background:var(--red);color:#fff}
+
 
 .yeargroup{margin-bottom:26px}
 .yearhead{
@@ -282,3 +289,14 @@ main{max-width:1180px;margin:0 auto;padding:18px 20px 80px}
 }
 .ub-link:hover{color:#8a1a20}
 .ub-hint{display:inline-block;margin-top:4px;font-size:11.5px;color:var(--ink-3,#8a8f98)}
+
+/* 全部政策：主栏目 / 区栏目 两栏 */
+.split2{display:grid;gap:18px}
+@media (min-width:1000px){
+  .split2{grid-template-columns:1fr 1fr;align-items:start}
+}
+.col .colhead{display:flex;align-items:baseline;gap:8px;margin:2px 0 10px;padding-bottom:6px;border-bottom:2px solid var(--line)}
+.col .colhead h2{font-size:15px;margin:0;font-weight:700}
+.col .colhead .c{font-size:12px;color:var(--ink-3)}
+.col-dist .colhead{border-bottom-color:#f0d9c8}
+.col .empty.small{padding:24px 10px}
