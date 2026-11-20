@@ -1,15 +1,15 @@
 {
- "checked": 5636,
- "total": 5649,
+ "checked": 5652,
+ "total": 5666,
  "byCode": {
-  "200": 5607,
-  "000": 5,
+  "200": 5622,
+  "000": 6,
   "403": 22,
   "404": 2
  },
- "okPages": 3126,
- "okPdf": 1845,
- "pdfPolicies": 1849,
+ "okPages": 3140,
+ "okPdf": 1847,
+ "pdfPolicies": 1851,
  "sslUnverified": [
   "https://jingwei.jiading.cn/publicity/fdzdgknr/gg/zwgg/175757",
   "https://jingwei.jiading.cn/publicity/fdzdgknr/gg/zwgg/178411",
@@ -283,6 +283,12 @@
    "url": "https://keji.jiading.cn/publicity/fdzdgknr/gg/zwgg/130515",
    "code": "403",
    "err": "http-error",
+   "kind": "page"
+  },
+  {
+   "url": "https://www.jiading.gov.cn/publicity/gg/zwgg__publicity/fdzdgknr/gg/zwgg/202367",
+   "code": "000",
+   "err": "curl: (28) Connection timed out after 35002 milliseconds",
    "kind": "page"
   }
  ],
@@ -39753,6 +39759,118 @@
    "kind": "page",
    "sslUnverified": false,
    "verdict": "ok"
+  },
+  "https://www.sheitc.sh.gov.cn/cyfz/20261119/cfa4c63bac28421a815e95969992b008.html": {
+   "code": "200",
+   "err": "",
+   "kind": "page",
+   "sslUnverified": false,
+   "verdict": "ok"
+  },
+  "https://www.shcn.gov.cn/col7446/20261117/1320715.html": {
+   "code": "200",
+   "err": "",
+   "kind": "page",
+   "sslUnverified": false,
+   "verdict": "ok"
+  },
+  "https://www.sheitc.sh.gov.cn/cmsres/13/132fc33639ef45f98ceb99b0d71e8a62/fa8e28fb21635b4d74e7bb8299b87564.pdf": {
+   "code": "200",
+   "err": "",
+   "kind": "pdf",
+   "sslUnverified": false,
+   "verdict": "ok"
+  },
+  "https://www.shhk.gov.cn/xwzx/002002/20261118/070dea97-514d-4c58-9ad3-4dafa3f11487.html": {
+   "code": "200",
+   "err": "",
+   "kind": "page",
+   "sslUnverified": false,
+   "verdict": "ok"
+  },
+  "https://www.shqp.gov.cn/econ/tzgg/20261117/1408494/b4cfd7a2b63a4435a56f5e2e23eb4a16.pdf": {
+   "code": "200",
+   "err": "",
+   "kind": "page",
+   "sslUnverified": false,
+   "verdict": "ok"
+  },
+  "http://sh-gaoxin.com/detail.php?id=4618&district=%E5%A5%89%E8%B4%A4%E5%8C%BA": {
+   "code": "200",
+   "err": "",
+   "kind": "page",
+   "sslUnverified": false,
+   "verdict": "ok"
+  },
+  "https://zwgk.shmh.gov.cn/mh-xxgk-cms/website/mh_xxgk/xxgk_jywyh_ywxx_zhgh_qyfw/content/656c16b0-36fd-42e8-bd98-96546c77ac10.htm": {
+   "code": "200",
+   "err": "",
+   "kind": "page",
+   "sslUnverified": false,
+   "verdict": "ok"
+  },
+  "http://sh-gaoxin.com/detail.php?id=4618&district=%E4%B8%B4%E6%B8%AF%E6%96%B0%E7%89%87%E5%8C%BA": {
+   "code": "200",
+   "err": "",
+   "kind": "page",
+   "sslUnverified": false,
+   "verdict": "ok"
+  },
+  "http://sh-gaoxin.com/detail.php?id=4618&district=%E5%BE%90%E6%B1%87%E5%8C%BA": {
+   "code": "200",
+   "err": "",
+   "kind": "page",
+   "sslUnverified": false,
+   "verdict": "ok"
+  },
+  "http://sh-gaoxin.com/detail.php?id=4618&district=%E9%BB%84%E6%B5%A6%E5%8C%BA": {
+   "code": "200",
+   "err": "",
+   "kind": "page",
+   "sslUnverified": false,
+   "verdict": "ok"
+  },
+  "http://sh-gaoxin.com/detail.php?id=4618&district=%E5%B4%87%E6%98%8E%E5%8C%BA": {
+   "code": "200",
+   "err": "",
+   "kind": "page",
+   "sslUnverified": false,
+   "verdict": "ok"
+  },
+  "http://sh-gaoxin.com/detail.php?id=4618&district=%E9%87%91%E5%B1%B1%E5%8C%BA": {
+   "code": "200",
+   "err": "",
+   "kind": "page",
+   "sslUnverified": false,
+   "verdict": "ok"
+  },
+  "http://sh-gaoxin.com/detail.php?id=4618&district=%E6%9D%BE%E6%B1%9F%E5%8C%BA": {
+   "code": "200",
+   "err": "",
+   "kind": "page",
+   "sslUnverified": false,
+   "verdict": "ok"
+  },
+  "http://sh-gaoxin.com/detail.php?id=4618&district=%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA": {
+   "code": "200",
+   "err": "",
+   "kind": "page",
+   "sslUnverified": false,
+   "verdict": "ok"
+  },
+  "https://www.shyp.gov.cn/zhengwu/kw-kjqypyhfz/2026/320/5834.html": {
+   "code": "200",
+   "err": "",
+   "kind": "page",
+   "sslUnverified": false,
+   "verdict": "ok"
+  },
+  "https://www.jiading.gov.cn/publicity/gg/zwgg__publicity/fdzdgknr/gg/zwgg/202367": {
+   "code": "000",
+   "err": "curl: (28) Connection timed out after 35002 milliseconds",
+   "kind": "page",
+   "sslUnverified": false,
+   "verdict": "unverified"
   }
  }
 }
