@@ -53,6 +53,18 @@ ok('仅区级时按钮高亮',
 $$('#resultbar .lvbtn').find(function (b) { return b.textContent.trim() === '全部'; })
   .dispatchEvent(new window.MouseEvent('click', { bubbles: true }));
 ok('切回全部恢复两栏', $$('#list .split2').length === 1);
+
+// 回归：电脑端两栏里点区栏目卡片，应打开区级那条，而不是左边市级
+const dcard = $('#list .col-dist .card');
+const dtitle = dcard.querySelector('h3').textContent.trim();
+dcard.dispatchEvent(new window.MouseEvent('click', { bubbles: true }));
+await new Promise(function (r) { setTimeout(r, 60); });
+ok('点区栏目卡片打开的是同一条区级政策',
+   ($('#drawer .dhead h2') || {}).textContent === dtitle,
+   dtitle + ' / ' + ($('#drawer .dhead h2') || {}).textContent);
+ok('抽屉层级显示区级', $('#drawer').textContent.includes('区级'));
+$('#mask').dispatchEvent(new window.MouseEvent('click', { bubbles: true }));
+await new Promise(function (r) { setTimeout(r, 40); });
 ok('筛选下拉已填充', $$('#f-cat option').length > 5 && $$('#f-year option').length > 3,
    $$('#f-cat option').length + '/' + $$('#f-year option').length);
 
