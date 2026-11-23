@@ -1,8 +1,22 @@
 {
  "source": "shgov",
  "channel": "发改委最新政策",
- "count": 3069,
+ "count": 3071,
  "items": [
+  {
+   "title": "关于下达本市2026年节能降碳减排专项资金和超长期特别国债资金安排计划（第十九批）的通知",
+   "date": "2026-11-20",
+   "url": "https://fgw.sh.gov.cn/fgw_zyjyhhjbh/20261120/15c2dc1f96a54c7da8a8122d51b9511c.html",
+   "source": "shgov",
+   "channel": "发改委最新政策"
+  },
+  {
+   "title": "2026年上海市民营企业数智化转型升级赋能培训班在上海国家会计学院举行",
+   "date": "2026-11-20",
+   "url": "https://fgw.sh.gov.cn/fgw_gzdt/20261123/57fe9637acf24ea1965cc4eaffb67389.html",
+   "source": "shgov",
+   "channel": "发改委最新政策"
+  },
   {
    "title": "关于下达本市2026年节能降碳减排专项资金和超长期特别国债资金安排计划（第十八批）的通知",
    "date": "2026-11-18",
