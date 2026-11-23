@@ -123,6 +123,7 @@
   };
 
   function cardHTML(x, i) {
+    if (x.__idx != null) i = x.__idx;
     var cls = NT_CLASS[x.noticeType] || '';
     var tags = '';
     tags += '<span class="tag nt">' + esc(x.noticeType) + '</span>';
@@ -178,6 +179,7 @@
 
   function renderList() {
     var list = currentList();
+    list.forEach(function (x, idx) { x.__idx = idx; });
     var box = $('#list');
     if (!list.length) {
       box.innerHTML = '<div class="empty"><b>没有匹配的政策</b>换个关键词，或点上面的「重置筛选」。</div>';
