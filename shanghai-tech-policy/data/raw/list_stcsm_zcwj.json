@@ -1,8 +1,15 @@
 {
  "source": "stcsm",
  "channel": "政策文件",
- "count": 104,
+ "count": 105,
  "items": [
+  {
+   "title": "关于印发《上海市概念验证平台建设与服务指引》的通知",
+   "date": "2026-11-24",
+   "url": "https://stcsm.sh.gov.cn/zwgk/kjzc/zcwj/kwzcxwj/20261124/9f8f71f30cab41c08ede3ce52632d568.html",
+   "source": "stcsm",
+   "channel": "政策文件"
+  },
   {
    "title": "关于印发《上海市科学数据管理办法（试行）》的通知",
    "date": "2026-11-13",

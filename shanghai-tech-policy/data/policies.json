@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generatedAt": "2026-11-24 09:51",
-  "total": 3165,
+  "generatedAt": "2026-11-24 10:21",
+  "total": 3166,
   "years": [
    "2015",
    "2016",
@@ -86,12 +86,65 @@
    "静安区人民政府/科委",
    "黄浦区人民政府/科委"
   ],
-  "deepCount": 1003,
-  "pdfCount": 1851,
-  "docNoCount": 1161,
+  "deepCount": 1004,
+  "pdfCount": 1852,
+  "docNoCount": 1162,
   "missingDetail": 0
  },
  "policies": [
+  {
+   "id": "0278520d1e3f6b4c",
+   "title": "关于印发《上海市概念验证平台建设与服务指引》的通知",
+   "docNo": "沪科规〔2026〕14号",
+   "issuer": "上海市科学技术委员会",
+   "publishDate": "2026-11-24",
+   "year": "2026",
+   "category": "创新载体与孵化器",
+   "noticeType": "政策红头文件",
+   "level": "市级",
+   "district": "",
+   "url": "https://stcsm.sh.gov.cn/zwgk/kjzc/zcwj/kwzcxwj/20261124/9f8f71f30cab41c08ede3ce52632d568.html",
+   "pdfUrls": [
+    "https://stcsm.sh.gov.cn/cmsres/3b/3bf9cea2843c4183a112cdd1aa773cff/1d8837b8142e0d222b8aeb07908afefc.pdf"
+   ],
+   "attachments": [],
+   "source": "stcsm",
+   "sourceName": "上海市科学技术委员会（上海科技）",
+   "sourceShort": "市科委",
+   "channel": "政策文件",
+   "summary": "关于印发《上海市概念验证平台建设与服务指引》的通知",
+   "conditions": [
+    "第九条 根据国家和本市重点发展战略和未来产业需求，采取“自上而下”与“自下而上”相结合方式，按照转化导向、注重能力、梯度布局、形成体系的原则，有计划、有重点地遴选建设",
+    "面向未来产业，结合张江高新区、未来产业集聚区等建设，超前布局，发挥未来产业基金作用，吸引社会资本参与",
+    "具备项目成果挖掘能力，对接高校院所或拥有产业链上下游需求资源，稳定获取早期科技成果",
+    "（三）专业人员",
+    "平台运营负责人须具备从事技术转移或产业孵化等领域工作经验",
+    "拥有专业化的验证服务与管理运营团队，技术经理人或项目经理人数量不少于5人"
+   ],
+   "benefits": [
+    "（四）评价不合格的，不予资金支持，给予不超过6个月的限期整改"
+   ],
+   "materials": [],
+   "timeline": [],
+   "timeHints": [
+    "2026-11-17",
+    "2026-12-23",
+    "2031-12-22"
+   ],
+   "moneyHints": [
+    "市区两级财政支持额原则上最高可达2000万元",
+    "市区两级财政支持额最高可达300万元"
+   ],
+   "keywords": [
+    "创新载体与孵化器"
+   ],
+   "textChars": 4472,
+   "depth": "full",
+   "isFunding": false,
+   "linkOk": true,
+   "linkNote": "",
+   "pdfOk": true
+  },
   {
    "id": "4f707d836abc54a6",
    "title": "关于公示朗根拜梅德科技（上海）有限公司等企业拟认定高新技术企业的通知",
