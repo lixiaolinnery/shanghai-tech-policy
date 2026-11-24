@@ -1,8 +1,15 @@
 {
  "source": "shgov",
  "channel": "发改委最新政策",
- "count": 3073,
+ "count": 3074,
  "items": [
+  {
+   "title": "关于优化上海市轨道交通票价机制的复函",
+   "date": "2026-11-23",
+   "url": "https://fgw.sh.gov.cn/fgw_jjjctk/20261123/f57b63885c514c829ee269ed589ab2b9.html",
+   "source": "shgov",
+   "channel": "发改委最新政策"
+  },
   {
    "title": "优化上海市轨道交通票价机制主要意见建议采纳情况",
    "date": "2026-11-23",
