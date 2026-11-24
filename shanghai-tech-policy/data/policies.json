@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generatedAt": "2026-11-24 13:51",
-  "total": 3166,
+  "generatedAt": "2026-11-24 14:21",
+  "total": 3167,
   "years": [
    "2015",
    "2016",
@@ -86,12 +86,55 @@
    "静安区人民政府/科委",
    "黄浦区人民政府/科委"
   ],
-  "deepCount": 1004,
-  "pdfCount": 1852,
-  "docNoCount": 1162,
+  "deepCount": 1005,
+  "pdfCount": 1853,
+  "docNoCount": 1163,
   "missingDetail": 0
  },
  "policies": [
+  {
+   "id": "9d7bd1f61a696471",
+   "title": "关于印发《关于进一步加强上海市高质量概念验证平台建设的行动方案》的通知",
+   "docNo": "沪科合〔2026〕22号",
+   "issuer": "上海市科学技术委员会",
+   "publishDate": "2026-11-24",
+   "year": "2026",
+   "category": "创新载体与孵化器",
+   "noticeType": "政策红头文件",
+   "level": "市级",
+   "district": "",
+   "url": "https://stcsm.sh.gov.cn/zwgk/ghjh/20261124/844c21d41be443d4b29921293bbdb65f.html",
+   "pdfUrls": [
+    "https://stcsm.sh.gov.cn/cmsres/0c/0cedc4ee701a4578860b72ee063007e1/49851c0457af5060cd2666b16d0f740c.pdf"
+   ],
+   "attachments": [],
+   "source": "stcsm",
+   "sourceName": "上海市科学技术委员会（上海科技）",
+   "sourceShort": "市科委",
+   "channel": "规划计划",
+   "summary": "关于印发《关于进一步加强上海市高质量概念验证平台建设的行动方案》的通知",
+   "conditions": [],
+   "benefits": [
+    "涉及金额：给予最长3年、最高可达2000万元"
+   ],
+   "materials": [],
+   "timeline": [],
+   "timeHints": [
+    "2026-11-17"
+   ],
+   "moneyHints": [
+    "给予最长3年、最高可达2000万元"
+   ],
+   "keywords": [
+    "创新载体与孵化器"
+   ],
+   "textChars": 3250,
+   "depth": "full",
+   "isFunding": false,
+   "linkOk": true,
+   "linkNote": "",
+   "pdfOk": true
+  },
   {
    "id": "0278520d1e3f6b4c",
    "title": "关于印发《上海市概念验证平台建设与服务指引》的通知",
