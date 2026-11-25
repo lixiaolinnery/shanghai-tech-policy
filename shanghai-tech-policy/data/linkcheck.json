@@ -1,15 +1,15 @@
 {
- "checked": 5656,
- "total": 5670,
+ "checked": 5658,
+ "total": 5672,
  "byCode": {
-  "200": 5626,
+  "200": 5628,
   "000": 6,
   "403": 22,
   "404": 2
  },
- "okPages": 3142,
- "okPdf": 1849,
- "pdfPolicies": 1853,
+ "okPages": 3143,
+ "okPdf": 1850,
+ "pdfPolicies": 1854,
  "sslUnverified": [
   "https://jingwei.jiading.cn/publicity/fdzdgknr/gg/zwgg/175757",
   "https://jingwei.jiading.cn/publicity/fdzdgknr/gg/zwgg/178411",
@@ -39897,6 +39897,20 @@
    "code": "200",
    "err": "",
    "kind": "page",
+   "sslUnverified": false,
+   "verdict": "ok"
+  },
+  "https://www.sheitc.sh.gov.cn/cyfz/20261125/7a6210f78d9641d8a5444375818b3790.html": {
+   "code": "200",
+   "err": "",
+   "kind": "page",
+   "sslUnverified": false,
+   "verdict": "ok"
+  },
+  "https://www.sheitc.sh.gov.cn/cmsres/c9/c9afae1bc485463b81db7029ebb6fbc5/8fb74fc8ba69e4abf54685e0a1a2b2ab.pdf": {
+   "code": "200",
+   "err": "",
+   "kind": "pdf",
    "sslUnverified": false,
    "verdict": "ok"
   }
