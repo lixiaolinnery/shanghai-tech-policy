@@ -1,13 +1,13 @@
 {
- "checked": 5658,
- "total": 5672,
+ "checked": 5659,
+ "total": 5673,
  "byCode": {
-  "200": 5628,
+  "200": 5629,
   "000": 6,
   "403": 22,
   "404": 2
  },
- "okPages": 3143,
+ "okPages": 3144,
  "okPdf": 1850,
  "pdfPolicies": 1854,
  "sslUnverified": [
@@ -39908,6 +39908,13 @@
    "verdict": "ok"
   },
   "https://www.lingang.gov.cn/html/website/lg/index/government/file/1481569416345120770.html": {
+   "code": "200",
+   "err": "",
+   "kind": "page",
+   "sslUnverified": false,
+   "verdict": "ok"
+  },
+  "https://fgw.sh.gov.cn/fgw_gsgg/20261126/841cca82a192404b9f257865bc193cd9.html": {
    "code": "200",
    "err": "",
    "kind": "page",

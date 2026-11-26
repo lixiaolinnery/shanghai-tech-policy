@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generatedAt": "2026-11-26 19:11",
-  "total": 3168,
+  "generatedAt": "2026-11-26 19:41",
+  "total": 3169,
   "years": [
    "2015",
    "2016",
@@ -92,6 +92,49 @@
   "missingDetail": 0
  },
  "policies": [
+  {
+   "id": "10ca0f8b802e3e68",
+   "title": "上海市服务业发展引导资金2026年第二批拟支持项目公示",
+   "docNo": "",
+   "issuer": "",
+   "publishDate": "2026-11-26",
+   "year": "2026",
+   "category": "服务业引导资金",
+   "noticeType": "公示通知",
+   "level": "市级",
+   "district": "",
+   "url": "https://fgw.sh.gov.cn/fgw_gsgg/20261126/841cca82a192404b9f257865bc193cd9.html",
+   "pdfUrls": [],
+   "attachments": [
+    {
+     "name": "上海市服务业发展引导资金2026年度第二批拟支持项目情况表.xlsx",
+     "url": "https://fgw.sh.gov.cn/cmsres/ff/ff571f3932274acd993394a18d9a9a3e/6a0026234edc7250f70ab74a20fc6051.xlsx"
+    }
+   ],
+   "source": "shgov",
+   "sourceName": "上海市人民政府",
+   "sourceShort": "市政府",
+   "channel": "发改委最新政策",
+   "summary": "上海市服务业发展引导资金2026年第二批拟支持项目公示",
+   "conditions": [],
+   "benefits": [],
+   "materials": [],
+   "timeline": [],
+   "timeHints": [
+    "2026-11-26",
+    "2026-11-25"
+   ],
+   "moneyHints": [],
+   "keywords": [
+    "服务业引导资金"
+   ],
+   "textChars": 474,
+   "depth": "basic",
+   "isFunding": true,
+   "linkOk": true,
+   "linkNote": "",
+   "pdfOk": true
+  },
   {
    "id": "48d7fc4e4ae6718e",
    "title": "关于设立上海碳纤维复合材料研发及应用中试基地等第二批24家新材料中试基地的通知",

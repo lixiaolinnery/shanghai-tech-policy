@@ -1,8 +1,15 @@
 {
  "source": "shgov",
  "channel": "发改委最新政策",
- "count": 3075,
+ "count": 3076,
  "items": [
+  {
+   "title": "上海市服务业发展引导资金2026年第二批拟支持项目公示",
+   "date": "2026-11-26",
+   "url": "https://fgw.sh.gov.cn/fgw_gsgg/20261126/841cca82a192404b9f257865bc193cd9.html",
+   "source": "shgov",
+   "channel": "发改委最新政策"
+  },
   {
    "title": "关于下达本市2026年节能降碳减排专项资金和超长期特别国债资金安排计划（第二十批）的通知",
    "date": "2026-11-24",
