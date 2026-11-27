@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generatedAt": "2026-11-27 09:31",
-  "total": 3169,
+  "generatedAt": "2026-11-27 10:01",
+  "total": 3170,
   "years": [
    "2015",
    "2016",
@@ -87,11 +87,50 @@
    "黄浦区人民政府/科委"
   ],
   "deepCount": 1005,
-  "pdfCount": 1854,
+  "pdfCount": 1855,
   "docNoCount": 1163,
   "missingDetail": 0
  },
  "policies": [
+  {
+   "id": "5c94ef308516a713",
+   "title": "关于上海市2026年第九批入库科技型中小企业的公告",
+   "docNo": "",
+   "issuer": "上海市科学技术委员会",
+   "publishDate": "2026-11-27",
+   "year": "2026",
+   "category": "科技型中小企业",
+   "noticeType": "名单公布",
+   "level": "市级",
+   "district": "",
+   "url": "https://stcsm.sh.gov.cn/zwgk/tzgs/gsgg/zhgsgg/20261127/9ee17f28aa5c474691d6cc791d4591c4.html",
+   "pdfUrls": [
+    "https://stcsm.sh.gov.cn/cmsres/2a/2ac21b64e9534bc895669d2c99d9f05f/94e13cbe89512d1a8e6946089f85ded0.pdf"
+   ],
+   "attachments": [],
+   "source": "stcsm",
+   "sourceName": "上海市科学技术委员会（上海科技）",
+   "sourceShort": "市科委",
+   "channel": "通知告示",
+   "summary": "关于上海市2026年第九批入库科技型中小企业的公告",
+   "conditions": [],
+   "benefits": [],
+   "materials": [],
+   "timeline": [],
+   "timeHints": [
+    "2026-11-19"
+   ],
+   "moneyHints": [],
+   "keywords": [
+    "科技型中小企业"
+   ],
+   "textChars": 355,
+   "depth": "basic",
+   "isFunding": false,
+   "linkOk": true,
+   "linkNote": "",
+   "pdfOk": true
+  },
   {
    "id": "10ca0f8b802e3e68",
    "title": "上海市服务业发展引导资金2026年第二批拟支持项目公示",
