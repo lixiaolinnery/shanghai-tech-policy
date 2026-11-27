@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generatedAt": "2026-11-27 15:01",
-  "total": 3170,
+  "generatedAt": "2026-11-27 15:31",
+  "total": 3171,
   "years": [
    "2015",
    "2016",
@@ -86,9 +86,9 @@
    "静安区人民政府/科委",
    "黄浦区人民政府/科委"
   ],
-  "deepCount": 1005,
-  "pdfCount": 1855,
-  "docNoCount": 1163,
+  "deepCount": 1006,
+  "pdfCount": 1856,
+  "docNoCount": 1164,
   "missingDetail": 0
  },
  "policies": [
@@ -126,6 +126,49 @@
    ],
    "textChars": 355,
    "depth": "basic",
+   "isFunding": false,
+   "linkOk": true,
+   "linkNote": "",
+   "pdfOk": true
+  },
+  {
+   "id": "c16dc3d32e10f99f",
+   "title": "关于2026年度关键技术研发计划“空天海洋”项目立项的通知",
+   "docNo": "沪科〔2026〕360号",
+   "issuer": "上海市科学技术委员会",
+   "publishDate": "2026-11-27",
+   "year": "2026",
+   "category": "其他科技政策",
+   "noticeType": "立项与评价通知",
+   "level": "市级",
+   "district": "",
+   "url": "https://stcsm.sh.gov.cn/zwgk/tzgs/gsgg/bsgsgg/kjjhxmjggb/20261127/94ae752d72bf46598f93a8cadcd03236.html",
+   "pdfUrls": [
+    "https://stcsm.sh.gov.cn/cmsres/63/639c626e981a4d93986b0e4386f2fc6a/35b120b6209c7d2809a38b453b95c8cb.pdf",
+    "https://stcsm.sh.gov.cn/cmsres/82/8209df2d37f943de9fdd71221bf25f65/8d1e9d7cc42b5a9b5dca849669a7aefe.pdf"
+   ],
+   "attachments": [],
+   "source": "stcsm",
+   "sourceName": "上海市科学技术委员会（上海科技）",
+   "sourceShort": "市科委",
+   "channel": "通知告示",
+   "summary": "关于2026年度关键技术研发计划“空天海洋”项目立项的通知",
+   "conditions": [],
+   "benefits": [
+    "涉及金额：市科委资助5300万元；其中2026年拨款2120万元"
+   ],
+   "materials": [],
+   "timeline": [],
+   "timeHints": [
+    "2026-11-25"
+   ],
+   "moneyHints": [
+    "市科委资助5300万元",
+    "其中2026年拨款2120万元"
+   ],
+   "keywords": [],
+   "textChars": 397,
+   "depth": "full",
    "isFunding": false,
    "linkOk": true,
    "linkNote": "",
